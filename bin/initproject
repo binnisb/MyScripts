@@ -1,0 +1,27 @@
+PSRC="src"
+PDATA="data"
+PRESULT="result"
+PBIN="bin"
+PDOC="doc"
+
+echo "I will now create folders:" 
+echo 	$PSRC "," $PDATA "," $PRESULT "," $PBIN "," $PDOC 
+echo "in directory:" 
+echo 	$PWD
+echo
+
+mkdir $PSRC
+mkdir $PDATA
+mkdir $PRESULT
+mkdir $PBIN
+mkdir $PDOC
+
+echo "I will now init git"
+git init
+echo
+echo "and put global name and email!"
+
+git config --global user.name "Brynjar Smari Bjarnason"
+git config --global user.email binni@binnisb.com
+
+echo "All done"
