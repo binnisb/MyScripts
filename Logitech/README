@@ -1,0 +1,10 @@
+http://th0th.me/log/pairing-logitech-unifying-devices-on-gnulinux/
+
+Assuming you have saved the file with name unifying_pair.c, you can build using command
+
+$ gcc -o unifying_pair unifying_pair.c
+One more thing you need to know before pairing is the location of your device under /dev/. In my case it was /dev/hidraw2 (actually i couldn't manage to find the difference between hidraw0, hidraw1 and hidraw2 but i just tried them all).
+
+Then become root (or use sudo, doesn't matter),
+
+# ./unifying_pair /dev/hidraw2
