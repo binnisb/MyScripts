@@ -1,0 +1,2 @@
+\l 	-	toggle invisible chars, based on .vimrc
+Unicode characters can be inserted by typing ctrl-vu followed by the 4 digit hexadecimal code. ctrl-vu2620
