@@ -1,26 +1,44 @@
-# Look and feel
-sessionname ProBin
-caption always "%{= bb}%{+b w}Screen: %n | %h %=%t %c"
-#hardstatus alwayslastline "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
-hardstatus alwayslastline
-hardstatus string "%-w%{= BW}%50>%n %t%{-}%+w%<"
-# Our warning of activity
-activity "Activity in %t(%n)"
-
+sessionname pfitmap
+setenv ROOT $PWD
 altscreen on
+term screen-256color
+backtick 1 5 5 true
+termcapinfo rxvt* 'hs:ts=\E]2;:fs=\007:ds=\E]2;\007'
+hardstatus string "pfitmap (%n: %t)"
+caption string "%{= kw}%-Lw%{= kG}%{+b}[%n %t]%{-b}%{= kw}%+Lw%1`"
+caption always
+hardstatus alwayslastline
 
-# Left Right meta key mods
-#ALT-,. and ALT-<>
-bindkey "^[<" eval number !echo $WINDOW-1|bc
-bindkey "^[>" eval number !echo $WINDOW+1|bc
-bindkey "^[," prev
-bindkey "^[." next
-screen -t probin_shell	0
-chdir src
-screen -t src  1
-chdir ../tests
-screen -t tests  2
-chdir ../data 
-screen -t data  3
+screen -t pfitmap
+screen -t server
+screen -t autotest
+chdir db
+screen -t psql 
+chdir ..
+chdir spec
+screen -t spec
+chdir ..
+chdir app
+chdir models
+screen -t models
+chdir ../controllers
+screen -t controllers
+chdir ../views
+screen -t views
+chdir $ROOT
+chdir config
+screen -t config
+chdir $ROOT/app/assets/stylesheets
+screen -t stylesheets
+chdir $ROOT/log
+screen -t log
+chdir $ROOT/db/migrate
+screen -t migrate
+chdir $ROOT/data
+screen -t data
+chdir $ROOT
+screen -t man
+screen -t console
+screen -t root
 
 select 0
