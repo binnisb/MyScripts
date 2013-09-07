@@ -1,0 +1,3 @@
+#!/bin/bash
+#=======================================SCREEN CONFIG=================================================
+screen -c ~/MyScripts/screenrc/screenrc_${PWD##*/}

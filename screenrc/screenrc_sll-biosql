@@ -1,0 +1,43 @@
+sessionname sll-biosql
+setenv ROOT $PWD
+altscreen on
+term screen-256color
+backtick 1 5 5 true
+termcapinfo rxvt* 'hs:ts=\E]2;:fs=\007:ds=\E]2;\007'
+hardstatus string "sll-biosql (%n: %t)"
+caption string "%{= kw}%-Lw%{= kG}%{+b}[%n %t]%{-b}%{= kw}%+Lw%1`"
+caption always
+screen -t biosql
+screen -t server
+screen -t autotest
+chdir db
+screen -t psql 
+chdir ..
+chdir spec
+screen -t spec
+chdir ..
+chdir app
+chdir models
+screen -t models
+chdir ../controllers
+screen -t controllers
+chdir ../views
+screen -t views
+chdir ../..
+chdir config
+screen -t config
+chdir ../app/assets/stylesheets
+screen -t stylesheets
+chdir ../../../log
+screen -t log
+chdir ..
+chdir db/migrate
+screen -t migrate
+chdir $ROOT/lib
+screen -t lib
+chdir $ROOT
+screen -t man
+screen -t console
+screen -t root
+
+select 0
