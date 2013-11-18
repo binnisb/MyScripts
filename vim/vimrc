@@ -7,3 +7,8 @@ set listchars=tab:▸\ ,eol:¬
 "Invisible character colors
 highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
+"
+set directory=~/.vim/swap,.
+set smarttab
+set autoindent
+set smartindent shiftwidth=2

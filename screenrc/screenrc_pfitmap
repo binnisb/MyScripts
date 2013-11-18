@@ -5,7 +5,7 @@ term screen-256color
 backtick 1 5 5 true
 termcapinfo rxvt* 'hs:ts=\E]2;:fs=\007:ds=\E]2;\007'
 hardstatus string "pfitmap (%n: %t)"
-caption string "%{= kw}%-Lw%{= kG}%{+b}[%n %t]%{-b}%{= kw}%+Lw%1`"
+caption string "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
 caption always
 
 screen -t pfitmap
@@ -27,6 +27,8 @@ screen -t views
 chdir $ROOT
 chdir config
 screen -t config
+chdir $ROOT/app/assets/javascripts
+screen -t javascript
 chdir $ROOT/app/assets/stylesheets
 screen -t stylesheets
 chdir $ROOT/log
@@ -39,3 +41,5 @@ chdir $ROOT
 screen -t man
 screen -t console
 screen -t root
+
+select 0
