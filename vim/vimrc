@@ -12,3 +12,6 @@ set directory=~/.vim/swap,.
 set smarttab
 set autoindent
 set smartindent shiftwidth=2
+
+" Enable cmake with the cvim plugin (http://www.vim.org/scripts/script.php?script_id=213)
+let  g:C_UseTool_cmake    = 'yes' 

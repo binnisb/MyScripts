@@ -3,29 +3,33 @@
 UUID=03ebcbaa-8c4d-401a-baa7-282f92200d31 /media/shared_files	ext4	defaults	0	2
 
 # Default mounts
-/media/shared_files/binni/Desktop /home/binni/Desktop	bind	defaults,bind 	0 	0
-/media/shared_files/binni/Documents /home/binni/Documents	bind	defaults,bind 	0 	0
-/media/shared_files/binni/Downloads /home/binni/Downloads	bind	defaults,bind 	0 	0
-/media/shared_files/binni/Music /home/binni/Music	bind	defaults,bind 	0 	0
-/media/shared_files/binni/Pictures /home/binni/Pictures	bind	defaults,bind 	0 	0
-/media/shared_files/binni/Programming /home/binni/Programming	bind	defaults,bind 	0 	0
-/media/shared_files/binni/Public /home/binni/Public	bind	defaults,bind 	0 	0
-/media/shared_files/binni/Videos /home/binni/Videos	bind	defaults,bind 	0 	0
+/media/shared_files/binni/Calibre\040Library 	/home/binni/Calibre\040Library		bind	defaults,bind 	0 	0
+/media/shared_files/binni/Desktop 		/home/binni/Desktop			bind	defaults,bind 	0 	0
+/media/shared_files/binni/Documents 		/home/binni/Documents			bind	defaults,bind 	0 	0
+/media/shared_files/binni/Downloads 		/home/binni/Downloads			bind	defaults,bind 	0 	0
+/media/shared_files/binni/Music 		/home/binni/Music			bind	defaults,bind 	0 	0
+/media/shared_files/binni/Pictures 		/home/binni/Pictures			bind	defaults,bind 	0 	0
+/media/shared_files/binni/Programming 		/home/binni/Programming			bind	defaults,bind 	0 	0
+/media/shared_files/binni/Public 		/home/binni/Public			bind	defaults,bind 	0 	0
+/media/shared_files/binni/SteamLibrary 		/home/binni/SteamLibrary		bind	defaults,bind 	0 	0
+/media/shared_files/binni/Videos 		/home/binni/Videos			bind	defaults,bind 	0 	0
 
 # Mount specific directories to binni's home
-/media/shared_files/binni/.antd /home/binni/.antd	bind	defaults,bind 	0 	0
+/media/shared_files/binni/.antd 		/home/binni/.antd			bind	defaults,bind 	0 	0
 
-/media/shared_files/binni/bin /home/binni/bin		bind	defaults,bind 	0 	0
-/media/shared_files/binni/Dropbox /home/binni/Dropbox	bind	defaults,bind 	0 	0
-/media/shared_files/binni/VirtualBox\040VMs /home/binni/VirtualBox\040VMs	bind	defaults,bind 	0 	0
-/media/shared_files/binni/.bash_aliases /home/binni/.bash_aliases	bind	defaults,bind 	0 	0
-/media/shared_files/binni/.bash_functions /home/binni/.bash_functions	bind	defaults,bind 	0 	0
-/media/shared_files/binni/.bashrc /home/binni/.bashrc	bind	defaults,bind 	0 	0
-/media/shared_files/binni/.gitconfig /home/binni/.gitconfig	bind	defaults,bind 	0 	0
-/media/shared_files/binni/.screenrc /home/binni/.screenrc	bind	defaults,bind 	0 	0
-/media/shared_files/binni/.ssh /home/binni/.ssh	bind	defaults,bind 	0 	0
-/media/shared_files/binni/.VirtualBox /home/binni/.VirtualBox	bind	defaults,bind 	0 	0
+/media/shared_files/binni/bin 			/home/binni/bin				bind	defaults,bind 	0 	0
+/media/shared_files/binni/Dropbox 		/home/binni/Dropbox			bind	defaults,bind 	0 	0
+/media/shared_files/binni/VirtualBox\040VMs 	/home/binni/VirtualBox\040VMs		bind	defaults,bind 	0 	0
+/media/shared_files/binni/.bash_aliases 	/home/binni/.bash_aliases		bind	defaults,bind 	0 	0
+/media/shared_files/binni/.bash_functions 	/home/binni/.bash_functions		bind	defaults,bind 	0 	0
+/media/shared_files/binni/.bashrc 		/home/binni/.bashrc			bind	defaults,bind 	0 	0
+/media/shared_files/binni/.gitconfig 		/home/binni/.gitconfig			bind	defaults,bind 	0 	0
+/media/shared_files/binni/.screenrc 		/home/binni/.screenrc			bind	defaults,bind 	0 	0
+/media/shared_files/binni/.ssh 			/home/binni/.ssh			bind	defaults,bind 	0 	0
+/media/shared_files/binni/.thunderbird 		/home/binni/.thunderbird		bind	defaults,bind 	0 	0
+/media/shared_files/binni/.vim 			/home/binni/.vim			bind	defaults,bind 	0 	0
+/media/shared_files/binni/.VirtualBox 		/home/binni/.VirtualBox			bind	defaults,bind 	0 	0
 
-/home/binni/Dropbox/texmf /home/binni/texmf	bind	defaults,bind	0	0
-/home/binni/Programming/MyScripts/vim/vimrc /home/binni/.vimrc	bind	defaults,bind	0	0
+/home/binni/Dropbox/texmf /home/binni/texmf						bind	defaults,bind	0	0
+/home/binni/Programming/MyScripts/vim/vimrc 	/home/binni/.vimrc			bind	defaults,bind	0	0
 

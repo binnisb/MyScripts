@@ -3,6 +3,7 @@
 sudo mkdir -p /media/shared_files
 
 cd ~/
+mkdir Calibre\ Library
 mkdir Desktop
 mkdir Documents
 mkdir Downloads
@@ -10,10 +11,12 @@ mkdir Music
 mkdir Pictures
 mkdir Programming
 mkdir Public
+mkdir SteamLibrary
 mkdir Videos
 
 mkdir .antd
 mkdir .ssh
+mkdir .vim
 mkdir .VirtualBox
 
 mkdir bin
@@ -28,9 +31,4 @@ touch .bashrc
 touch .gitconfig
 touch .screenrc
 touch .vimrc
-if [ -f $1 ]; then
-  echo "No file given."
-else
-  sudo bash -c "cat $1 >> /etc/fstab"
-fi
 
