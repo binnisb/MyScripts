@@ -1,1 +1,0 @@
-../../hma/hma-vpn.sh
