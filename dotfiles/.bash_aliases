@@ -58,7 +58,7 @@ alias python_server="python -m SimpleHTTPServer 8888 &"
 CONDA_PATH="/home/binni/miniconda3/bin"
 
 ### Aliases to add or remove conda from path
-alias conda_add_path='export PATH="$CONDA_PATH:$PATH"; echo prepending $CONDA_PATH to PATH'
+alias conda_add_path='export PATH="$CONDA_PATH:$PATH"; eval "$(register-python-argcomplete conda)";echo prepending $CONDA_PATH to PATH'
 alias conda_remove_path='export PATH=`echo $PATH | sed -re "s;:?$CONDA_PATH:?;;"`'
 
 ### Aliases to query environments, create and activate environment, 

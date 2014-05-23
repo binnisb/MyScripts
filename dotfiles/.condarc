@@ -1,0 +1,6 @@
+always_yes: True
+
+create_default_packages:
+  - python=3.4
+  - pip
+  - argcomplete
