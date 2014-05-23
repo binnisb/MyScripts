@@ -1,0 +1,20 @@
+# Load aliases and make prompt
+if [ -f $HOME/.bash_aliases ]; then
+    . $HOME/.bash_aliases
+    make-prompt
+fi
+# Add .local/bin in home.
+if [ -d $HOME/.local/bin ]; then
+    PATH=$HOME/.local/bin:$PATH
+fi
+
+# Add bin in home.
+if [ -d $HOME/bin ]; then
+    PATH=$HOME/bin:$PATH
+fi
+if [ -d $HOME/Programming/MyScripts/bin ]; then
+    PATH=$HOME/Programming/MyScripts/bin:$PATH
+fi
+
+# Editor
+export EDITOR=vim

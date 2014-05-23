@@ -1,0 +1,4 @@
+rule all:
+    input: "/home/binni/Programming/install.txt"
+    output: "log.txt"
+    shell: "yaourt -S --needed --noconfirm $(head -n 27 {input}) > {output}"
