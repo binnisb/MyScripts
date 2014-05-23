@@ -116,7 +116,7 @@ function gitify {
     then
       echo ""
     else
-    echo "$(git-branch-name)$(git-dirty)$(git-unpushed)"
+    echo "($(git-branch-name)$(git-dirty)$(git-unpushed)) "
   fi
 }
 function make-prompt
@@ -126,7 +126,7 @@ function make-prompt
   local BLUE="\[\e[1;34m\]"
   local PURPLE="\[\e[1;35m\]"
   local NO_COLOR="\[\e[0m\]"
-  PS1="${RED}\$(gitify)${NO_COLOR}"$PS1
+  PS1=$PS1"${RED}\$(gitify)${NO_COLOR}"
 
 }
 
