@@ -15,3 +15,6 @@ set smartindent shiftwidth=2
 
 " Enable cmake with the cvim plugin (http://www.vim.org/scripts/script.php?script_id=213)
 let  g:C_UseTool_cmake    = 'yes' 
+
+" Highlight Snakefile syntax in vim
+au BufNewFile,BufRead Snakefile set syntax=python
