@@ -26,6 +26,16 @@ function path(){
 }
 
 # ———————————————–
+# function: add only once to path
+# ———————————————–
+
+pathadd_front() {
+    if [ -d "$1" ] && [[ ":$PATH:" != *":$1:"* ]]; then
+        PATH="$1:${PATH:+"$PATH"}"
+    fi
+}
+
+# ———————————————–
 # Nice shorthands
 # ———————————————–
 
@@ -47,6 +57,13 @@ alias exit="clear; exit"
 alias h="htop"
 
 
+# ———————————————–
+# Power management
+# ———————————————–
+
+alias ati_on="DRI_PRIME=1"
+alias ati_off="DRI_PRIME=0"
+
 
 # ———————————————–
 # Python / Conda stuff
@@ -58,7 +75,7 @@ alias python_server="python -m SimpleHTTPServer 8888 &"
 CONDA_PATH="/home/binni/miniconda3/bin"
 
 ### Aliases to add or remove conda from path
-alias conda_add_path='export PATH="$CONDA_PATH:$PATH"; eval "$(register-python-argcomplete conda)";echo prepending $CONDA_PATH to PATH'
+alias conda_add_path='pathadd_front $CONDA_PATH; eval "$(register-python-argcomplete conda)";echo prepending $CONDA_PATH to PATH'
 alias conda_remove_path='export PATH=`echo $PATH | sed -re "s;:?$CONDA_PATH:?;;"`'
 
 ### Aliases to query environments, create and activate environment, 
@@ -81,6 +98,8 @@ function conda_create_env {
 
 ### IPython and IJulia notebooks
 alias ipython_notebook="cd /home/binni/Dropbox/ipython_notebooks/ && ipython notebook --profile=nbserver"
+alias ijulia="csa ijulia;julia"
+alias ijulia_notebook="csa ijulia;ipython notebook --profile=julia"
 alias julia_notebook="cd /home/binni/Dropbox/ipython_notebooks/ && ipython notebook --profile=julia"
 
 alias ssh_milou_ipython_tunneling="ssh -AXD 9999 brynjar@milou2.uppmax.uu.se"
