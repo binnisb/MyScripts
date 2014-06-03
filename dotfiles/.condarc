@@ -4,3 +4,4 @@ create_default_packages:
   - python
   - pip
   - argcomplete
+  - snakemake

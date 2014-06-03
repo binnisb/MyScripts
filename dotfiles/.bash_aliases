@@ -8,11 +8,12 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # ———————————————–
-# less with vim
+# vim
 # ———————————————–
 
 #The less.sh is /usr/share/vim/vimcurrent/macros/less.sh
 alias less="less.sh"
+
 
 # ———————————————–
 # function: type "path" in terminal for ordered $PATH display:

@@ -20,7 +20,11 @@ fi
 xrandr --setprovideroffloadsink 0x55 0x7f
 
 # Editor
-export EDITOR=vim
+export EDITOR=gvim
 
 # Load opam config
 eval `opam config env`
+
+# Load global python argcomplete
+source ~/.bash_completion.d/python-argcomplete.sh
+

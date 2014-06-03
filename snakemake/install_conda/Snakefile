@@ -3,7 +3,7 @@ CONDARC="/home/binni/.condarc"
 
 rule all:
     input: PREFIX
-    shell: "export PATH=\"$(realpath {input}/bin):$PATH\";conda install argcomplete"
+    shell: "export PATH=\"$(realpath {input}/bin):$PATH\""
 
 rule copy_condarc:
     output: CONDARC
