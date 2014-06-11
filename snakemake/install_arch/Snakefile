@@ -1,4 +1,4 @@
 rule all:
-    input: "/home/binni/Programming/install.txt"
+    input: "./install.txt"
     output: "log.txt"
-    shell: "yaourt -S --needed --noconfirm $(cat {input}) > {output}"
+    shell: "yaourt -S --needed --noconfirm $(cat {input}) > {output} 2>&1"
