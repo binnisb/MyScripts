@@ -1,7 +1,11 @@
 always_yes: True
 
+channels:
+  - defaults
+  - http://conda.binstar.org/binnisb
+
 create_default_packages:
   - python
   - pip
   - argcomplete
-  - snakemake
+  - binstar

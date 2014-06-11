@@ -27,4 +27,4 @@ eval `opam config env`
 
 # Load global python argcomplete
 source ~/.bash_completion.d/python-argcomplete.sh
-
+#eval "$(register-python-argcomplete concoct)"
