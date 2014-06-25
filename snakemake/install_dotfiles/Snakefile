@@ -1,0 +1,31 @@
+PREFIX="/home/binni/"
+DOTFILES=[".bash_aliases",".bashrc",".condarc",".gitconfig",".screenrc",".vimrc",".profile"]
+rule all:
+    input: expand("{PREFIX}{df}",df=DOTFILES)
+
+rule copy_condarc:
+    output: CONDARC
+    shell: "ln -s /home/binni/Programming/MyScripts/dotfiles/.condarc {output};touch {output}"
+
+rule get_latest:
+    input: CONDARC
+    output: "Miniconda.txt"
+    shell: "pip install beautifulsoup4;./GetLatestMiniconda.py > {output}"
+
+rule download_latest:
+    input: rules.get_latest.output
+    output: "miniconda.sh"
+    shell: "wget $(cat {input}) -O {output};touch {output}"
+
+rule install_conda:
+    input: rules.download_latest.output
+    output: dir=PREFIX
+    shell: "bash {input} -b -p {output};export PATH=\"$(realpath {output}/bin):$PATH\";conda install conda-build pip argcomplete;pip install snakemake"
+
+rule clean:
+    """clean up files"""
+    shell: "rm -rf {rules.download_latest.output} {rules.get_latest.output}"
+
+rule uninstall:
+    """uninstall"""
+    shell: "rm -rf {rules.download_latest.output} {rules.get_latest.output} {rules.install_conda.output}"

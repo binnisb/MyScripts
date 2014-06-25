@@ -1,0 +1,31 @@
+from collections import namedtuple
+Env = namedtuple('Env',['name','version','type'])
+
+envs = [Env('2','2','base'), Env('3','3','base'), Env('Sci3','3','sci'),Env('Sci2','2','sci')]
+rule all:
+    input: 
+    shell: "export PATH=\"$(realpath {input}/bin):$PATH\""
+
+rule create_env
+    input: Env
+    output: CONDARC
+    shell: "ln -s /home/binni/Programming/MyScripts/dotfiles/.condarc {output};touch {output}"
+
+rule get_latest:
+    input: CONDARC
+    output: "Miniconda.txt"
+    shell: "python2 GetLatestMiniconda.py > {output}"
+
+rule download_latest:
+    input: rules.get_latest.output
+    output: "miniconda.sh"
+    shell: "wget $(cat {input}) -O {output};touch {output}"
+
+rule install_conda:
+    input: rules.download_latest.output
+    output: dir=PREFIX
+    shell: "bash {input} -b -p {output}"
+
+rule clean:
+    """clean up files"""
+    shell: "rm -rf {rules.copy_condarc.output} {rules.install_conda.output} {rules.download_latest.output} {rules.get_latest.output}"

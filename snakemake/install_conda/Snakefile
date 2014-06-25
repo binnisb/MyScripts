@@ -3,7 +3,6 @@ CONDARC="/home/binni/.condarc"
 
 rule all:
     input: PREFIX
-    shell: "export PATH=\"$(realpath {input}/bin):$PATH\""
 
 rule copy_condarc:
     output: CONDARC
@@ -12,7 +11,7 @@ rule copy_condarc:
 rule get_latest:
     input: CONDARC
     output: "Miniconda.txt"
-    shell: "python2 GetLatestMiniconda.py > {output}"
+    shell: "pip install beautifulsoup4;./GetLatestMiniconda.py > {output}"
 
 rule download_latest:
     input: rules.get_latest.output
@@ -22,8 +21,12 @@ rule download_latest:
 rule install_conda:
     input: rules.download_latest.output
     output: dir=PREFIX
-    shell: "bash {input} -b -p {output}"
+    shell: "bash {input} -b -p {output};export PATH=\"$(realpath {output}/bin):$PATH\";conda install conda-build pip argcomplete;pip install snakemake"
 
 rule clean:
     """clean up files"""
-    shell: "rm -rf {rules.copy_condarc.output} {rules.install_conda.output} {rules.download_latest.output} {rules.get_latest.output}"
+    shell: "rm -rf {rules.download_latest.output} {rules.get_latest.output}"
+
+rule uninstall:
+    """uninstall"""
+    shell: "rm -rf {rules.download_latest.output} {rules.get_latest.output} {rules.install_conda.output}"
