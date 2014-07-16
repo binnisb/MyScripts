@@ -28,5 +28,4 @@ teamviewer
 texlive-most
 texstudio
 tmux
-lastpass-pocket
 
