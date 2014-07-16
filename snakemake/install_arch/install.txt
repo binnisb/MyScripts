@@ -10,6 +10,7 @@ dropbox
 empathy
 firefox
 git
+git-latexdiff-git
 glances
 gsl
 gvim
@@ -20,6 +21,7 @@ lapack
 lilyterm
 lm_sensors
 mendeleydesktop
+openvpn
 skype
 steam
 teamviewer

@@ -1,9 +1,10 @@
 [user]
-	name = Brynjar Smari Bjarnason
-	email = binni@binnisb.com
+    name = Brynjar Smari Bjarnason
+    email = binni@binnisb.com
 [alias]
-	co = checkout
+    co = checkout
 [credential]
-	helper = cache --timeout=3600
+    helper = cache --timeout=3600
 [push]
-	default = simple
+    default = simple
+

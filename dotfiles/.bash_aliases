@@ -1,7 +1,3 @@
-#The less.sh is /usr/share/vim/vimcurrent/macros/less.sh
-alias less="less.sh"
-
-
 # ———————————————–
 # function: type "path" in terminal for ordered $PATH display:
 # ———————————————–
@@ -22,6 +18,46 @@ pathadd_front() {
         PATH="$1:${PATH:+"$PATH"}"
     fi
 }
+
+# ———————————————–
+# function: extract any compressed filetype
+# ———————————————–
+
+e() {
+    local c e i
+
+    (($#)) || return
+
+    for i; do
+        c=''
+        e=1
+
+        if [[ ! -r $i ]]; then
+            echo "$0: file is unreadable: \`$i'" >&2
+            continue
+        fi
+
+        case $i in
+            *.t@(gz|lz|xz|b@(2|z?(2))|a@(z|r?(.@(Z|bz?(2)|gz|lzma|xz)))))
+                   c=(bsdtar xvf);;
+            *.7z)  c=(7z x);;
+            *.Z)   c=(uncompress);;
+            *.bz2) c=(bunzip2);;
+            *.exe) c=(cabextract);;
+            *.gz)  c=(gunzip);;
+            *.rar) c=(unrar x);;
+            *.xz)  c=(unxz);;
+            *.zip) c=(unzip);;
+            *)     echo "$0: unrecognized file extension: \`$i'" >&2
+                   continue;;
+        esac
+
+        command "${c[@]}" "$i"
+        ((e = e || $?))
+    done
+    return "$e"
+}
+
 
 # ———————————————–
 # Nice shorthands
@@ -49,6 +85,17 @@ alias python_server="python -m SimpleHTTPServer 8888 &"
 ### Path to the miniconda installation
 CONDA_PATH="/home/binni/miniconda3/bin"
 
+### Aliases to add or remove conda from path
+alias conda_add_path='pathadd_front $CONDA_PATH; eval "$(register-python-argcomplete conda)";echo prepending $CONDA_PATH to PATH'
+alias conda_remove_path='export PATH=`echo $PATH | sed -re "s;:?$CONDA_PATH:?;;"`'
+
+### Aliases to query environments, create and activate environment,
+### source activate and source deactivate environemts
+alias conda_env="conda_add_path;conda info -e;conda_remove_path"
+alias csa="conda_add_path;source activate"
+alias csd="source deactivate;conda_remove_path"
+
+# Function to create new conda environment with name and python version
 function conda_create_env {
   if [ $# -ne 2 ]; then
     echo "Usage:   conda_create_env name python_version"
@@ -60,16 +107,6 @@ function conda_create_env {
   conda_remove_path
   csa $1
 }
-
-### Aliases to add or remove conda from path
-alias conda_add_path='pathadd_front $CONDA_PATH; eval "$(register-python-argcomplete conda)";echo prepending $CONDA_PATH to PATH'
-alias conda_remove_path='export PATH=`echo $PATH | sed -re "s;:?$CONDA_PATH:?;;"`'
-
-### Aliases to query environments, create and activate environment,
-### source activate and source deactivate environemts
-alias conda_env="conda_add_path;conda info -e;conda_remove_path"
-alias csa="conda_add_path;source activate"
-alias csd="source deactivate;conda_remove_path"
 
 alias ssh_milou_ipython_tunneling="ssh -AXD 9999 brynjar@milou2.uppmax.uu.se"
 alias chromium_ipython="chromium --proxy-server='socks5://127.0.0.1:9999' --host-resolver-rules='MAP * 0.0.0.0 , EXCLUDE 127.0.0.1'"

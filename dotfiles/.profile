@@ -11,3 +11,10 @@ fi
 if [ -d $HOME/Programming/MyScripts/bin ]; then
     PATH=$HOME/Programming/MyScripts/bin:$PATH
 fi
+# source bashrc if exists
+if [ -f $HOME/.bashrc ]; then
+    source $HOME/.bashrc
+fi
+if [ -f $HOME/.opam/opam-init/init.sh ]; then
+    source ~/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
+fi
