@@ -18,3 +18,8 @@ fi
 if [ -f $HOME/.opam/opam-init/init.sh ]; then
     source ~/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
 fi
+
+# Load global python argcomplete
+if [ -f $HOME/.bash_completion.d/python-argcomplete.sh ]; then
+    source ~/.bash_completion.d/python-argcomplete.sh
+fi
