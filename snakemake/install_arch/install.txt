@@ -1,6 +1,5 @@
 yaourt
 allservers
-atom-editor-bin
 bash-completion
 blas
 calibre
@@ -24,8 +23,9 @@ mendeleydesktop
 openvpn
 skype
 steam
-teamviewer
 texlive-most
 texstudio
 tmux
 
+sublime-text-dev
+guake

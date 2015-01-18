@@ -1,0 +1,4 @@
+rule all:
+    input: "./install.txt"
+    output: "log.txt"
+    shell: "yaourt -S --needed --noconfirm $(cat {input}) > {output} 2>&1"

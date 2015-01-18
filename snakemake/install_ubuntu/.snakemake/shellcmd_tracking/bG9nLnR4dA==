@@ -1,0 +1,1 @@
+yaourt -S --needed --noconfirm $(cat ./install.txt) > log.txt 2>&1

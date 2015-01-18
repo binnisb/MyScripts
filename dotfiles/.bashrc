@@ -10,9 +10,10 @@ if hash tmux 2>/dev/null; then
 fi
 
 # Make prompt
-PS1='[\u@\h \W]\$ '
+export PS1="\[\e[00;36m\]\t\[\e[0m\]\[\e[00;37m\] \[\e[0m\]\[\e[00;32m\]\u\[\e[0m\]\[\e[00;36m\]@\[\e[0m\]\[\e[00;32m\]\h\[\e[0m\]\[\e[00;37m\] \W \[\e[0m\]\[\e[00;36m\]\\$\[\e[0m\]\[\e[00;37m\] \[\e[0m\]"
 source $HOME/.bash_aliases
 make-prompt
 
 # Editor
-export EDITOR=atom
+export EDITOR=vim
+

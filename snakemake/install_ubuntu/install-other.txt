@@ -1,0 +1,15 @@
+crashplan
+git-latexdiff-git
+teamviewer
+mendeleydesktop
+julia
+docker
+lilyterm
+lm_sensors
+openvpn
+
+Canon printer
+http://ubuntuforums.org/showthread.php?t=2229285
+scangearmp-mg5400series
+cnijfilter-mg5400series
+

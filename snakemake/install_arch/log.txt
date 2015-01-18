@@ -1,0 +1,1034 @@
+:: There are 15 members in group texlive-most:
+:: Repository extra
+   1) texlive-bibtexextra  2) texlive-core  3) texlive-fontsextra  4) texlive-formatsextra  5) texlive-games  6) texlive-genericextra  7) texlive-htmlxml  8) texlive-humanities  9) texlive-latexextra  10) texlive-music  11) texlive-pictures  12) texlive-plainextra  13) texlive-pstricks  14) texlive-publishers  15) texlive-science
+
+Enter a selection (default=all): warning: openvpn-2.3.4-1 is up to date -- skipping
+warning: empathy-3.12.4-1 is up to date -- skipping
+warning: git-2.0.2-1 is up to date -- skipping
+warning: bash-completion-2.1-5 is up to date -- skipping
+warning: yaourt-1.5-1 is up to date -- skipping
+
+resolving dependencies...
+looking for inter-conflicts...
+
+Packages (107): arpack-3.1.5-1  bridge-utils-1.5-2  chmlib-0.40-4  gd-2.1.0-2  hwloc-1.9-1  imagemagick-6.8.9.5-1  lib32-alsa-lib-1.0.28-1  lib32-attr-2.4.47-1  lib32-flac-1.3.0-1  lib32-json-c-0.12-1  lib32-lcms2-2.6-1  lib32-libasyncns-0.8-7  lib32-libcap-2.24-1  lib32-libice-1.0.9-1  lib32-libjpeg-turbo-1.3.1-1  lib32-libmng-2.0.2-1  lib32-libogg-1.3.1-1  lib32-libpulse-5.0-1  lib32-libsm-1.2.2-1  lib32-libsndfile-1.0.25-3  lib32-libtiff-4.0.3-2  lib32-libvorbis-1.3.4-1  lib32-libxcursor-1.1.14-1  lib32-libxi-1.7.3-1  lib32-libxrandr-1.4.2-1  lib32-libxss-1.2.2-2  lib32-libxtst-1.2.2-1  lib32-libxv-1.0.10-1  lib32-openssl-1.0.1.h-1  lib32-qt4-4.8.6-1  lib32-sqlite-3.8.5-1  lib32-util-linux-2.24.2-1  lib32-v4l-utils-1.2.1-1  libcl-1.1-4  liblqr-0.4.2-1  libmng-2.0.2-3  libsigsegv-2.10-2  libunrar-1:5.1.6-1  libunwind-1.1-2  libwmf-0.2.8.4-12  libyaml-0.1.6-1  lua-5.2.3-1  lua51-5.1.5-4  mime-types-9-1  openmpi-1.8.1-2  perl-file-which-1.09-4  podofo-0.9.2-2  poppler-qt4-0.26.2-1  pygtk-2.24.0-4  pyqt4-common-4.11.1-1  python-psutil-2.1.1-1  python2-apsw-3.8.4.3-1  python2-beautifulsoup3-3.2.1-3  python2-cherrypy-3.3.0-1  python2-cssselect-0.9.1-2  python2-cssutils-1.0-2  python2-dateutil-2.2-2  python2-dnspython-1.11.1-1  python2-gconf-2.28.1-9  python2-mechanize-0.2.5-3  python2-notify-0.1.1-13  python2-psutil-2.1.1-1  python2-pyqt4-4.11.1-1  python2-sip-4.16.2-1  python2-six-1.7.3-1  python2-xdg-0.25-2  qt4-4.8.6-1  qtwebkit-2.3.3-1  ruby-2.1.2-1  sip-4.16.2-1  texlive-bin-2013.30973-10  vim-runtime-7.4.335-4  vte-0.28.2-4  zziplib-0.13.62-2  blas-3.5.0-1  calibre-1.40.0-1  docker-1:1.1.1-1  firefox-30.0-1  glances-2.0.1-1  gsl-1.16-1  guake-0.4.4-3  gvim-7.4.335-4  hexchat-2.10.0-2  htop-1.0.3-2  julia-0.3.0_rc1-1  lapack-3.5.0-1  lilyterm-0.9.9.2-2  lm_sensors-3.3.5-1  skype-4.3.0.37-3  steam-1.0.0.47-2  texlive-bibtexextra-2013.33039-1  texlive-core-2013.33063-1  texlive-fontsextra-2013.33010-1  texlive-formatsextra-2013.31958-1  texlive-games-2013.32919-1  texlive-genericextra-2013.32809-1  texlive-htmlxml-2013.33024-1  texlive-humanities-2013.33061-1  texlive-latexextra-2013.33063-1  texlive-music-2013.32525-1  texlive-pictures-2013.33045-1  texlive-plainextra-2013.32911-1  texlive-pstricks-2013.33056-1  texlive-publishers-2013.33042-1  texlive-science-2013.32850-1  texstudio-2.8.0-1  tmux-1.9_a-1
+
+Total Download Size:    540.90 MiB
+Total Installed Size:   1629.36 MiB
+
+:: Proceed with installation? [Y/n] 
+:: Retrieving packages ...
+downloading bridge-utils-1.5-2-x86_64.pkg.tar.xz...
+downloading gd-2.1.0-2-x86_64.pkg.tar.xz...
+downloading libsigsegv-2.10-2-x86_64.pkg.tar.xz...
+downloading zziplib-0.13.62-2-x86_64.pkg.tar.xz...
+downloading texlive-bin-2013.30973-10-x86_64.pkg.tar.xz...
+downloading texlive-core-2013.33063-1-any.pkg.tar.xz...
+downloading texlive-bibtexextra-2013.33039-1-any.pkg.tar.xz...
+downloading texlive-fontsextra-2013.33010-1-any.pkg.tar.xz...
+downloading texlive-formatsextra-2013.31958-1-any.pkg.tar.xz...
+downloading texlive-games-2013.32919-1-any.pkg.tar.xz...
+downloading texlive-genericextra-2013.32809-1-any.pkg.tar.xz...
+downloading texlive-htmlxml-2013.33024-1-any.pkg.tar.xz...
+downloading perl-file-which-1.09-4-any.pkg.tar.xz...
+downloading texlive-latexextra-2013.33063-1-any.pkg.tar.xz...
+downloading texlive-humanities-2013.33061-1-any.pkg.tar.xz...
+downloading texlive-music-2013.32525-1-any.pkg.tar.xz...
+downloading texlive-pictures-2013.33045-1-any.pkg.tar.xz...
+downloading texlive-plainextra-2013.32911-1-any.pkg.tar.xz...
+downloading texlive-pstricks-2013.33056-1-any.pkg.tar.xz...
+downloading texlive-publishers-2013.33042-1-any.pkg.tar.xz...
+downloading texlive-science-2013.32850-1-any.pkg.tar.xz...
+downloading lm_sensors-3.3.5-1-x86_64.pkg.tar.xz...
+downloading gsl-1.16-1-x86_64.pkg.tar.xz...
+downloading mime-types-9-1-any.pkg.tar.xz...
+downloading firefox-30.0-1-x86_64.pkg.tar.xz...
+downloading blas-3.5.0-1-x86_64.pkg.tar.xz...
+downloading lapack-3.5.0-1-x86_64.pkg.tar.xz...
+downloading htop-1.0.3-2-x86_64.pkg.tar.xz...
+downloading vim-runtime-7.4.335-4-x86_64.pkg.tar.xz...
+downloading ruby-2.1.2-1-x86_64.pkg.tar.xz...
+downloading lua-5.2.3-1-x86_64.pkg.tar.xz...
+downloading gvim-7.4.335-4-x86_64.pkg.tar.xz...
+downloading vte-0.28.2-4-x86_64.pkg.tar.xz...
+downloading pygtk-2.24.0-4-x86_64.pkg.tar.xz...
+downloading python2-notify-0.1.1-13-x86_64.pkg.tar.xz...
+downloading python2-gconf-2.28.1-9-x86_64.pkg.tar.xz...
+downloading python2-xdg-0.25-2-any.pkg.tar.xz...
+downloading libmng-2.0.2-3-x86_64.pkg.tar.xz...
+downloading qt4-4.8.6-1-x86_64.pkg.tar.xz...
+downloading poppler-qt4-0.26.2-1-x86_64.pkg.tar.xz...
+downloading lua51-5.1.5-4-x86_64.pkg.tar.xz...
+downloading libwmf-0.2.8.4-12-x86_64.pkg.tar.xz...
+downloading liblqr-0.4.2-1-x86_64.pkg.tar.xz...
+downloading libcl-1.1-4-x86_64.pkg.tar.xz...
+downloading imagemagick-6.8.9.5-1-x86_64.pkg.tar.xz...
+downloading chmlib-0.40-4-x86_64.pkg.tar.xz...
+downloading libunrar-1:5.1.6-1-x86_64.pkg.tar.xz...
+downloading qtwebkit-2.3.3-1-x86_64.pkg.tar.xz...
+downloading sip-4.16.2-1-x86_64.pkg.tar.xz...
+downloading python2-sip-4.16.2-1-x86_64.pkg.tar.xz...
+downloading pyqt4-common-4.11.1-1-x86_64.pkg.tar.xz...
+downloading python2-pyqt4-4.11.1-1-x86_64.pkg.tar.xz...
+downloading python2-cssselect-0.9.1-2-any.pkg.tar.xz...
+downloading hwloc-1.9-1-x86_64.pkg.tar.xz...
+downloading openmpi-1.8.1-2-x86_64.pkg.tar.xz...
+downloading libyaml-0.1.6-1-x86_64.pkg.tar.xz...
+downloading lilyterm-0.9.9.2-2-x86_64.pkg.tar.xz...
+downloading python-psutil-2.1.1-1-x86_64.pkg.tar.xz...
+downloading glances-2.0.1-1-any.pkg.tar.xz...
+downloading tmux-1.9_a-1-x86_64.pkg.tar.xz...
+downloading guake-0.4.4-3-x86_64.pkg.tar.xz...
+downloading texstudio-2.8.0-1-x86_64.pkg.tar.xz...
+downloading python2-six-1.7.3-1-any.pkg.tar.xz...
+downloading python2-dateutil-2.2-2-any.pkg.tar.xz...
+downloading python2-cssutils-1.0-2-any.pkg.tar.xz...
+downloading python2-cherrypy-3.3.0-1-any.pkg.tar.xz...
+downloading python2-mechanize-0.2.5-3-any.pkg.tar.xz...
+downloading podofo-0.9.2-2-x86_64.pkg.tar.xz...
+downloading python2-beautifulsoup3-3.2.1-3-any.pkg.tar.xz...
+downloading python2-dnspython-1.11.1-1-any.pkg.tar.xz...
+downloading python2-psutil-2.1.1-1-x86_64.pkg.tar.xz...
+downloading python2-apsw-3.8.4.3-1-x86_64.pkg.tar.xz...
+downloading calibre-1.40.0-1-x86_64.pkg.tar.xz...
+downloading arpack-3.1.5-1-x86_64.pkg.tar.xz...
+downloading libunwind-1.1-2-x86_64.pkg.tar.xz...
+downloading julia-0.3.0_rc1-1-x86_64.pkg.tar.xz...
+downloading hexchat-2.10.0-2-x86_64.pkg.tar.xz...
+downloading docker-1:1.1.1-1-x86_64.pkg.tar.xz...
+downloading lib32-json-c-0.12-1-x86_64.pkg.tar.xz...
+downloading lib32-libasyncns-0.8-7-x86_64.pkg.tar.xz...
+downloading lib32-attr-2.4.47-1-x86_64.pkg.tar.xz...
+downloading lib32-libcap-2.24-1-x86_64.pkg.tar.xz...
+downloading lib32-libxi-1.7.3-1-x86_64.pkg.tar.xz...
+downloading lib32-libxtst-1.2.2-1-x86_64.pkg.tar.xz...
+downloading lib32-libice-1.0.9-1-x86_64.pkg.tar.xz...
+downloading lib32-util-linux-2.24.2-1-x86_64.pkg.tar.xz...
+downloading lib32-libsm-1.2.2-1-x86_64.pkg.tar.xz...
+downloading lib32-alsa-lib-1.0.28-1-x86_64.pkg.tar.xz...
+downloading lib32-libogg-1.3.1-1-x86_64.pkg.tar.xz...
+downloading lib32-flac-1.3.0-1-x86_64.pkg.tar.xz...
+downloading lib32-libvorbis-1.3.4-1-x86_64.pkg.tar.xz...
+downloading lib32-libsndfile-1.0.25-3-x86_64.pkg.tar.xz...
+downloading lib32-libpulse-5.0-1-x86_64.pkg.tar.xz...
+downloading lib32-sqlite-3.8.5-1-x86_64.pkg.tar.xz...
+downloading lib32-openssl-1.0.1.h-1-x86_64.pkg.tar.xz...
+downloading lib32-libjpeg-turbo-1.3.1-1-x86_64.pkg.tar.xz...
+downloading lib32-libtiff-4.0.3-2-x86_64.pkg.tar.xz...
+downloading lib32-lcms2-2.6-1-x86_64.pkg.tar.xz...
+downloading lib32-libmng-2.0.2-1-x86_64.pkg.tar.xz...
+downloading lib32-libxrandr-1.4.2-1-x86_64.pkg.tar.xz...
+downloading lib32-libxv-1.0.10-1-x86_64.pkg.tar.xz...
+downloading lib32-qt4-4.8.6-1-x86_64.pkg.tar.xz...
+downloading lib32-libxss-1.2.2-2-x86_64.pkg.tar.xz...
+downloading lib32-libxcursor-1.1.14-1-x86_64.pkg.tar.xz...
+downloading lib32-v4l-utils-1.2.1-1-x86_64.pkg.tar.xz...
+downloading skype-4.3.0.37-3-x86_64.pkg.tar.xz...
+downloading steam-1.0.0.47-2-x86_64.pkg.tar.xz...
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+installing gd...
+Optional dependencies for gd
+    perl: bdftogd script [installed]
+installing libsigsegv...
+installing zziplib...
+installing texlive-bin...
+>>> texlive: updating the filename database...
+warning: kpathsea: configuration file texmf.cnf not found in these directories: /usr/bin:/usr/bin/share/texmf-local/web2c:/usr/bin/share/texmf-dist/web2c:/usr/bin/share/texmf/web2c:/usr/bin/texmf-local/web2c:/usr/bin/texmf-dist/web2c:/usr/bin/texmf/web2c:/usr:/usr/share/texmf-local/web2c:/usr/share/texmf-dist/web2c:/usr/share/texmf/web2c:/usr/texmf-local/web2c:/usr/texmf-dist/web2c:/usr/texmf/web2c://../texmf-local/web2c:/://share/texmf-local/web2c://share/texmf-dist/web2c://share/texmf/web2c://texmf-local/web2c://texmf-dist/web2c://texmf/web2c.
+mktexlsr: Done.
+Optional dependencies for texlive-bin
+    ed: for texconfig
+installing texlive-core...
+>>> texlive: saving updmap.cfg as /tmp/tmp.PX0raNt1So...
+>>> texlive: regenerating updmap.cfg (custom additions should go
+             into /etc/texmf/web2c/updmap-local.cfg
+>>> texlive: updating the filename database...
+mktexlsr: Updating /etc/texmf/ls-R... 
+mktexlsr: Updating /usr/share/texmf-dist/ls-R... 
+mktexlsr: Updating /var/lib/texmf/ls-R... 
+mktexlsr: Done.
+>>> texlive: updating the fontmap files with updmap...
+ done.
+creating all formats... done.
+ (logs are under /var/lib/texmf/web2c/<engine>/<formatname>.log)
+NB: To setup ConTeXt and the lua(la)tex font db,
+    see http://wiki.archlinux.org/index.php/TeX_Live
+Optional dependencies for texlive-core
+    ruby: for old ConTeXT MkII and epspdf [pending]
+    perl-tk: for texdoctk
+    python2: for dviasm [installed]
+    ghostscript: for epstopdf, epspdf and other ConTeXt tools [installed]
+    psutils: to manipulate the output of dvips
+    t1utils: can be useful when installing Type1 fonts
+    java-runtime: for utilities like arara
+installing texlive-bibtexextra...
+>>> texlive: updating the filename database...
+mktexlsr: Updating /etc/texmf/ls-R... 
+mktexlsr: Updating /usr/share/texmf-dist/ls-R... 
+mktexlsr: Updating /var/lib/texmf/ls-R... 
+mktexlsr: Done.
+installing texlive-fontsextra...
+>>> texlive: saving updmap.cfg as /tmp/tmp.cw9hwR4WUZ...
+>>> texlive: regenerating updmap.cfg (custom additions should go
+             into /etc/texmf/web2c/updmap-local.cfg
+>>> texlive: updating the filename database...
+mktexlsr: Updating /etc/texmf/ls-R... 
+mktexlsr: Updating /usr/share/texmf-dist/ls-R... 
+mktexlsr: Updating /var/lib/texmf/ls-R... 
+mktexlsr: Done.
+>>> texlive: updating the fontmap files with updmap...
+ done.
+installing texlive-formatsextra...
+>>> texlive: updating the filename database...
+mktexlsr: Updating /etc/texmf/ls-R... 
+mktexlsr: Updating /usr/share/texmf-dist/ls-R... 
+mktexlsr: Updating /var/lib/texmf/ls-R... 
+mktexlsr: Done.
+installing texlive-games...
+>>> texlive: saving updmap.cfg as /tmp/tmp.3vlSsEmhKm...
+>>> texlive: regenerating updmap.cfg (custom additions should go
+             into /etc/texmf/web2c/updmap-local.cfg
+>>> texlive: updating the filename database...
+mktexlsr: Updating /etc/texmf/ls-R... 
+mktexlsr: Updating /usr/share/texmf-dist/ls-R... 
+mktexlsr: Updating /var/lib/texmf/ls-R... 
+mktexlsr: Done.
+>>> texlive: updating the fontmap files with updmap...
+ done.
+installing texlive-genericextra...
+>>> texlive: updating the filename database...
+mktexlsr: Updating /etc/texmf/ls-R... 
+mktexlsr: Updating /usr/share/texmf-dist/ls-R... 
+mktexlsr: Updating /var/lib/texmf/ls-R... 
+mktexlsr: Done.
+installing texlive-htmlxml...
+>>> texlive: updating the filename database...
+mktexlsr: Updating /etc/texmf/ls-R... 
+mktexlsr: Updating /usr/share/texmf-dist/ls-R... 
+mktexlsr: Updating /var/lib/texmf/ls-R... 
+mktexlsr: Done.
+installing perl-file-which...
+installing texlive-latexextra...
+>>> texlive: saving updmap.cfg as /tmp/tmp.1QOS1DIsM5...
+>>> texlive: regenerating updmap.cfg (custom additions should go
+             into /etc/texmf/web2c/updmap-local.cfg
+>>> texlive: updating the filename database...
+mktexlsr: Updating /etc/texmf/ls-R... 
+mktexlsr: Updating /usr/share/texmf-dist/ls-R... 
+mktexlsr: Updating /var/lib/texmf/ls-R... 
+mktexlsr: Done.
+>>> texlive: updating the fontmap files with updmap...
+ done.
+Optional dependencies for texlive-latexextra
+    texlive-genericextra: to use the calctab package [installed]
+    texlive-pictures: to use the package overpic [pending]
+    java-environment: to use pdfannotextractor
+installing texlive-humanities...
+>>> texlive: updating the filename database...
+mktexlsr: Updating /etc/texmf/ls-R... 
+mktexlsr: Updating /usr/share/texmf-dist/ls-R... 
+mktexlsr: Updating /var/lib/texmf/ls-R... 
+mktexlsr: Done.
+Optional dependencies for texlive-humanities
+    texlive-pictures: for package qtree [pending]
+installing texlive-music...
+>>> texlive: saving updmap.cfg as /tmp/tmp.J6Tc3hNZ4Q...
+>>> texlive: regenerating updmap.cfg (custom additions should go
+             into /etc/texmf/web2c/updmap-local.cfg
+>>> texlive: updating the filename database...
+mktexlsr: Updating /etc/texmf/ls-R... 
+mktexlsr: Updating /usr/share/texmf-dist/ls-R... 
+mktexlsr: Updating /var/lib/texmf/ls-R... 
+mktexlsr: Done.
+>>> texlive: updating the fontmap files with updmap...
+ done.
+installing texlive-pictures...
+>>> texlive: saving updmap.cfg as /tmp/tmp.Hu03bes0o8...
+>>> texlive: regenerating updmap.cfg (custom additions should go
+             into /etc/texmf/web2c/updmap-local.cfg
+>>> texlive: updating the filename database...
+mktexlsr: Updating /etc/texmf/ls-R... 
+mktexlsr: Updating /usr/share/texmf-dist/ls-R... 
+mktexlsr: Updating /var/lib/texmf/ls-R... 
+mktexlsr: Done.
+>>> texlive: updating the fontmap files with updmap...
+ done.
+installing texlive-plainextra...
+>>> texlive: updating the filename database...
+mktexlsr: Updating /etc/texmf/ls-R... 
+mktexlsr: Updating /usr/share/texmf-dist/ls-R... 
+mktexlsr: Updating /var/lib/texmf/ls-R... 
+mktexlsr: Done.
+installing texlive-pstricks...
+>>> texlive: updating the filename database...
+mktexlsr: Updating /etc/texmf/ls-R... 
+mktexlsr: Updating /usr/share/texmf-dist/ls-R... 
+mktexlsr: Updating /var/lib/texmf/ls-R... 
+mktexlsr: Done.
+installing texlive-publishers...
+>>> texlive: updating the filename database...
+mktexlsr: Updating /etc/texmf/ls-R... 
+mktexlsr: Updating /usr/share/texmf-dist/ls-R... 
+mktexlsr: Updating /var/lib/texmf/ls-R... 
+mktexlsr: Done.
+installing texlive-science...
+>>> texlive: saving updmap.cfg as /tmp/tmp.xZFq0rb9Mh...
+>>> texlive: regenerating updmap.cfg (custom additions should go
+             into /etc/texmf/web2c/updmap-local.cfg
+>>> texlive: updating the filename database...
+mktexlsr: Updating /etc/texmf/ls-R... 
+mktexlsr: Updating /usr/share/texmf-dist/ls-R... 
+mktexlsr: Updating /var/lib/texmf/ls-R... 
+mktexlsr: Done.
+>>> texlive: updating the fontmap files with updmap...
+ done.
+installing lm_sensors...
+Optional dependencies for lm_sensors
+    rrdtool: for logging with sensord
+installing gsl...
+installing mime-types...
+installing firefox...
+Optional dependencies for firefox
+    networkmanager: Location detection via available WiFi networks [installed]
+    gst-plugins-good: h.264 video [installed]
+    gst-libav: h.264 video [installed]
+    libpulse: PulseAudio audio driver [installed]
+installing blas...
+installing lapack...
+installing htop...
+Optional dependencies for htop
+    lsof: show files opened by a process
+    strace: attach to a running process
+installing vim-runtime...
+installing libyaml...
+installing ruby...
+The default location of gem installs is $HOME/.gem/ruby
+Add the following line to your PATH if you plan to install using gem
+$(ruby -rubygems -e "puts Gem.user_dir")/bin
+If you want to install to the system wide location, you must either:
+edit /etc/gemrc or run gem with the --no-user-install flag.
+Optional dependencies for ruby
+    ruby-docs: Ruby documentation
+installing lua...
+installing gvim...
+installing vte...
+installing lilyterm...
+installing python-psutil...
+installing glances...
+Optional dependencies for glances
+    python-jinja: HTML export
+    python-bottle: web server support
+    hddtemp: HDD temperature monitoring support
+installing tmux...
+installing pygtk...
+Optional dependencies for pygtk
+    python2-numpy
+installing python2-notify...
+installing python2-gconf...
+installing python2-xdg...
+installing guake...
+installing libmng...
+installing qt4...
+Optional dependencies for qt4
+    qtchooser: set the default Qt toolkit
+    postgresql-libs: PostgreSQL driver
+    libmariadbclient: MariaDB driver
+    unixodbc: ODBC driver
+    libfbclient: Firebird/iBase driver
+    libxinerama: Xinerama support [installed]
+    libxcursor: Xcursor support [installed]
+    libxfixes: Xfixes support [installed]
+    icu: Unicode support [installed]
+installing poppler-qt4...
+installing texstudio...
+Optional dependencies for texstudio
+    evince: pdf reader, [installed]
+    okular: alternate pdf reader
+installing python2-six...
+installing python2-dateutil...
+installing python2-cssutils...
+installing python2-cherrypy...
+installing python2-mechanize...
+installing lua51...
+installing podofo...
+installing libwmf...
+Optional dependencies for libwmf
+    gdk-pixbuf2: for pixbuf loader [installed]
+installing python2-beautifulsoup3...
+installing liblqr...
+installing libcl...
+installing imagemagick...
+Optional dependencies for imagemagick
+    imagemagick-doc: for additional information
+    ghostscript: for Ghostscript support [installed]
+    openexr: for OpenEXR support
+    openjpeg2: for JP2 support
+    libwmf: for WMF support [installed]
+    librsvg: for SVG support [installed]
+    libxml2: for XML support [installed]
+    libpng: for PNG support [installed]
+    libwebp: for WEBP support [installed]
+installing chmlib...
+installing python2-dnspython...
+installing libunrar...
+installing qtwebkit...
+installing sip...
+installing python2-sip...
+installing pyqt4-common...
+installing python2-pyqt4...
+Optional dependencies for python2-pyqt4
+    phonon: enable audio and video in PyQt applications
+    python2-opengl: enable OpenGL 3D graphics in PyQt applications
+    qscintilla: QScintilla API
+    qt-assistant-compat: add PyQt online help in Qt Assistant
+installing python2-psutil...
+installing python2-cssselect...
+installing python2-apsw...
+installing calibre...
+Optional dependencies for calibre
+    ipython2: to use calibre-debug
+installing hwloc...
+installing openmpi...
+Optional dependencies for openmpi
+    gcc-fortran: fortran support
+installing arpack...
+installing libunwind...
+installing julia...
+Optional dependencies for julia
+    gnuplot: If using the Gaston Package from julia
+installing hexchat...
+Optional dependencies for hexchat
+    enchant: Spell check [installed]
+    perl: Perl plugin [installed]
+    python: Python plugin [installed]
+installing bridge-utils...
+installing docker...
+Optional dependencies for docker
+    btrfs-progs: btrfs backend support
+    lxc: lxc backend support
+installing lib32-json-c...
+installing lib32-libasyncns...
+installing lib32-attr...
+installing lib32-libcap...
+installing lib32-libxi...
+installing lib32-libxtst...
+installing lib32-libice...
+installing lib32-util-linux...
+installing lib32-libsm...
+installing lib32-alsa-lib...
+installing lib32-libogg...
+installing lib32-flac...
+installing lib32-libvorbis...
+installing lib32-libsndfile...
+installing lib32-libpulse...
+Optional dependencies for lib32-libpulse
+    lib32-alsa-plugins: ALSA support
+installing lib32-sqlite...
+installing lib32-openssl...
+Optional dependencies for lib32-openssl
+    ca-certificates [installed]
+installing lib32-libjpeg-turbo...
+installing lib32-libtiff...
+installing lib32-lcms2...
+installing lib32-libmng...
+installing lib32-libxrandr...
+installing lib32-libxv...
+installing lib32-qt4...
+Optional dependencies for lib32-qt4
+    lib32-libxinerama: Xinerama support
+    lib32-libxcursor: Xcursor support [pending]
+    lib32-libxfixes: Xfixes support [installed]
+installing lib32-libxss...
+installing lib32-libxcursor...
+installing lib32-v4l-utils...
+installing skype...
+Important update note: Since Skype 4.3, only PulseAudio is supported.
+That means you NEED a working PulseAudio setup to use Skype for voice chatting.
+If you get distorted sound in skype, try adding PULSE_LATENCY_MSEC=60 to your
+env before starting skype. Something like 'export PULSE_LATENCY_MSEC=60' in .bashrc, for example.
+Optional dependencies for skype
+    pulseaudio: audio support/voice chatting [installed]
+    lib32-libcanberra: XDG sound support
+installing steam...
+if you are running x86_64, you need the lib32 opt depends for your driver
+if you are having problems with the steam license, remove .steam and .local/share/Steam
+Optional dependencies for steam
+    lib32-ati-dri: for open source ATI driver users [installed]
+    lib32-catalyst-utils: for AMD Catalyst users
+    lib32-intel-dri: for open source Intel driver users [installed]
+    lib32-nouveau-dri: for Nouveau users
+    lib32-nvidia-utils: for NVIDIA proprietary blob users
+    lib32-flashplugin: for flash video
+    lib32-alsa-plugins
+
+==> Downloading allservers PKGBUILD from AUR...
+x PKGBUILD
+allservers 1.3-1  (Sun 17 Nov 08:52:32 CET 2013)
+( Unsupported package: Potentially dangerous ! )
+==> allservers dependencies:
+ - pacman-mirrorlist (already installed)
+
+
+==> Continue building allservers ? [Y/n]
+==> ------------------------------------
+==> 
+==> Building and installing package
+==> Making package: allservers 1.3-1 (Sun 20 Jul 13:33:40 CEST 2014)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Downloading allservers-1.3.tar.gz...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  1946  100  1946    0     0   2813      0 --:--:-- --:--:-- --:--:--  2813
+==> Validating source files with sha1sums...
+    allservers-1.3.tar.gz ... Passed
+==> Extracting sources...
+  -> Extracting allservers-1.3.tar.gz with bsdtar
+==> Entering fakeroot environment...
+==> Starting package()...
+==> Tidying install...
+  -> Purging unwanted files...
+  -> Removing libtool files...
+  -> Removing static library files...
+  -> Compressing man and info pages...
+  -> Stripping unneeded symbols from binaries and libraries...
+==> Creating package "allservers"...
+  -> Generating .PKGINFO file...
+  -> Generating .MTREE file...
+  -> Compressing package...
+==> Leaving fakeroot environment.
+==> Finished making: allservers 1.3-1 (Sun 20 Jul 13:33:42 CEST 2014)
+
+==> Continue installing allservers ? [Y/n]
+==> [v]iew package contents [c]heck package with namcap
+==> ---------------------------------------------------
+==> 
+loading packages...
+resolving dependencies...
+looking for inter-conflicts...
+
+Packages (1): allservers-1.3-1
+
+Total Installed Size:   0.01 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+installing allservers...
+Optional dependencies for allservers
+    yaourt [installed]
+    pkgcacheclean
+
+==> Downloading crashplan PKGBUILD from AUR...
+x crashplan
+x crashplan.install
+x crashplan.service
+x PKGBUILD
+Comment by 0112358  (2014-05-10 22:11)
+Package works well but should there be a tray icon?  I don't see one using xmonad/xmobar/trayer.
+
+Comment by landor  (2014-05-19 12:31)
+@egeerardyn: I am confirming the gui segfault issue as well as the fix reported by richli.
+
+Comment by EtiennePerot  (2014-06-07 18:32)
+Confirming the issue by butler360. I had gigabytes of restart.*.log files piling up, to the extent that shell expansion didn't work anymore ("bash: too many arguments" or something to that extent). Had to use `find -name 'restart.*.log' -delete` to get rid of them. Uncommenting APP_BASENAME in installs.vars seems to fix it.
+
+Comment by orschiro  (2014-06-08 10:26)
+For some reasons Crashplan stopped working for me. 
+
+Can someone reproduce the following error message?
+
+Jun 08 11:05:20 thinkpad systemd[1]: Starting CrashPlan Backup Engine...
+Jun 08 11:05:20 thinkpad CrashPlanEngine[987]: Starting CrashPlan Engine ... Using standard startup
+Jun 08 11:05:20 thinkpad CrashPlanEngine[987]: OK
+Jun 08 11:05:20 thinkpad systemd[1]: Started CrashPlan Backup Engine.
+Jun 08 11:05:20 thinkpad systemd[1]: crashplan.service: main process exited, code=exited, status=127/n/a
+Jun 08 11:05:20 thinkpad CrashPlanEngine[1005]: Stopping CrashPlan Engine ... /opt/crashplan/bin/CrashPlanEngine: line 144: kill: (1002) - No such process
+Jun 08 11:05:30 thinkpad CrashPlanEngine[1005]: OK
+Jun 08 11:05:30 thinkpad systemd[1]: Unit crashplan.service entered failed state.
+
+Comment by orschiro  (2014-06-16 08:14)
+I was able to trace back the issue. I installed the latest jre 8u5-1 package. But Crashplan is currently incompatible with Java 1.8.
+
+How can we reflect this in the dependencies of this package?
+
+crashplan 3.6.3-1  (Sat 17 Sep 05:06:24 CEST 2011)
+( Unsupported package: Potentially dangerous ! )
+==> crashplan dependencies:
+ - grep (already installed)
+ - gzip (already installed)
+ - java-runtime (package found)
+ - cpio (package found)
+
+
+==> Continue building crashplan ? [Y/n]
+==> -----------------------------------
+==> 
+==> Building and installing package
+==> Install or build missing dependencies for crashplan:
+resolving dependencies...
+looking for inter-conflicts...
+
+Packages (4): ca-certificates-java-20140324-3  jre7-openjdk-headless-7.u65_2.5.1-3  cpio-2.11-4  jre7-openjdk-7.u65_2.5.1-3
+
+Total Download Size:    42.15 MiB
+Total Installed Size:   78.08 MiB
+
+:: Proceed with installation? [Y/n] 
+:: Retrieving packages ...
+downloading ca-certificates-java-20140324-3-any.pkg.tar.xz...
+downloading jre7-openjdk-headless-7.u65_2.5.1-3-x86_64.pkg.tar.xz...
+downloading jre7-openjdk-7.u65_2.5.1-3-x86_64.pkg.tar.xz...
+downloading cpio-2.11-4-x86_64.pkg.tar.xz...
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+installing ca-certificates-java...
+installing jre7-openjdk-headless...
+done.
+Optional dependencies for jre7-openjdk-headless
+    libcups: needed for Java Mauve support - libmawt.so [installed]
+    fontconfig: needed for Java Mauve support - libmawt.so [installed]
+    java-rhino: for some JavaScript support
+installing jre7-openjdk...
+when you use a non-reparenting window manager
+set _JAVA_AWT_WM_NONREPARENTING=1 in
+/etc/profile.d/jre.sh
+Optional dependencies for jre7-openjdk
+    icedtea-web-java7: web browser plugin + Java Web Start
+    alsa-lib: for basic sound support [installed]
+    giflib: for gif format support [installed]
+    libpulse: for advanced sound support [installed]
+    gtk2: for the Gtk+ look and feel - desktop usage [installed]
+    libxtst: linked in xawt/libmawt.so - desktop usage [installed]
+installing cpio...
+==> Making package: crashplan 3.6.3-1 (Sun 20 Jul 13:34:24 CEST 2014)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Downloading CrashPlan_3.6.3_Linux.tgz...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   185  100   185    0     0    344      0 --:--:-- --:--:-- --:--:--   345
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0 20.2M    0  121k    0     0  55622      0  0:06:20  0:00:02  0:06:18  102k  2 20.2M    2  537k    0     0   180k      0  0:01:54  0:00:02  0:01:52  278k  9 20.2M    9 1927k    0     0   480k      0  0:00:43  0:00:04  0:00:39  649k 20 20.2M   20 4229k    0     0   855k      0  0:00:24  0:00:04  0:00:20 1085k 39 20.2M   39 8100k    0     0  1362k      0  0:00:15  0:00:05  0:00:10 1653k 64 20.2M   64 13.0M    0     0  1923k      0  0:00:10  0:00:06  0:00:04 2811k 88 20.2M   88 17.8M    0     0  2288k      0  0:00:09  0:00:07  0:00:02 3538k100 20.2M  100 20.2M    0     0  2441k      0  0:00:08  0:00:08 --:--:-- 4204k
+  -> Found crashplan
+  -> Found crashplan.service
+==> Validating source files with sha256sums...
+    CrashPlan_3.6.3_Linux.tgz ... Passed
+    crashplan ... Passed
+    crashplan.service ... Passed
+==> Extracting sources...
+  -> Extracting CrashPlan_3.6.3_Linux.tgz with bsdtar
+==> Starting build()...
+
+You must review and agree to the EULA before using Crashplan.
+You can do so at:
+  - http://support.crashplan.com/doku.php/eula
+  - /usr/share/licenses/crashplan/LICENSE
+
+==> Entering fakeroot environment...
+==> Starting package()...
+49036 blocks
+==> Tidying install...
+  -> Purging unwanted files...
+  -> Removing libtool files...
+  -> Removing static library files...
+  -> Compressing man and info pages...
+  -> Stripping unneeded symbols from binaries and libraries...
+==> Creating package "crashplan"...
+  -> Generating .PKGINFO file...
+  -> Adding install file...
+  -> Generating .MTREE file...
+  -> Compressing package...
+==> Leaving fakeroot environment.
+==> Finished making: crashplan 3.6.3-1 (Sun 20 Jul 13:34:46 CEST 2014)
+
+==> Continue installing crashplan ? [Y/n]
+==> [v]iew package contents [c]heck package with namcap
+==> ---------------------------------------------------
+==> 
+loading packages...
+resolving dependencies...
+looking for inter-conflicts...
+
+Packages (1): crashplan-3.6.3-1
+
+Total Installed Size:   23.64 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+installing crashplan...
+
+Your system is currently configured to watch 8192 files in real time.
+CrashPlan recommends using a larger value; see the CrashPlan support site for details.
+e.g. execute the following line to change this:
+  sudo sh -c "echo fs.inotify.max_user_watches=1048576 > /etc/sysctl.d/99-crashplan.conf"  
+
+Optional dependencies for crashplan
+    swt: needed by some to open the GUI
+
+==> Downloading dropbox PKGBUILD from AUR...
+x .AURINFO
+x PKGBUILD
+x dropbox.service
+x terms.txt
+x dropbox@.service
+x dropbox.png
+x dropbox.desktop
+Comment by carstene1ns  (2014-07-10 15:14)
+@mispp: Seems like you downloaded only the PKGBUILD instead of the whole tarball...
+Or your AUR helper is broken, because dropbox.png and the other files are there.
+
+Comment by mispp  (2014-07-10 20:00)
+downloaded both, ran makepkg, output saved on pastebin. is there cache that needs to be cleared somewhere?
+
+http://pastebin.com/HkUC2Gxy
+
+Comment by carstene1ns  (2014-07-10 20:26)
+You do not need to download the PKGBUILD additionally, it is already inside the tarball. Instead, extract that tarball.
+https://wiki.archlinux.org/index.php/AUR#Installing_packages
+
+Comment by mispp  (2014-07-10 20:34)
+now it works. thanks.
+i don't know what i was thinking :S
+
+Comment by caleb  (2014-07-15 08:45)
+My Out-Of-Date flag was in error, sorry about that. The release I am looking at is the devel branch.
+
+Linux client 2.11.0 was posted 3 days ago, release notes and links are [here][1]. Looks like this is a bit of a UI rewrite and will need more than a simple version bump in the package when it does get released.
+
+[1] https://forums.dropbox.com/topic.php?id=118006
+
+dropbox 2.10.2-1  (Thu 22 Jan 15:21:25 CET 2009)
+( Unsupported package: Potentially dangerous ! )
+==> dropbox dependencies:
+ - dbus-glib (already installed)
+ - gtk2 (already installed)
+ - libsm (already installed)
+
+
+==> Continue building dropbox ? [Y/n]
+==> ---------------------------------
+==> 
+==> Building and installing package
+==> Making package: dropbox 2.10.2-1 (Sun 20 Jul 13:34:53 CEST 2014)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Downloading dropbox-lnx.x86_64-2.10.2.tar.gz...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0 25.6M    0 48589    0     0  26655      0  0:16:47  0:00:01  0:16:46 26653  0 25.6M    0  111k    0     0  40847      0  0:10:57  0:00:02  0:10:55 40846  0 25.6M    0  111k    0     0  30387      0  0:14:43  0:00:03  0:14:40 30384  0 25.6M    0  143k    0     0  30372      0  0:14:44  0:00:04  0:14:40 30368  0 25.6M    0  159k    0     0  28176      0  0:15:53  0:00:05  0:15:48 36609  0 25.6M    0  175k    0     0  24897      0  0:17:58  0:00:07  0:17:51 24304  0 25.6M    0  191k    0     0  25057      0  0:17:51  0:00:07  0:17:44 16289  0 25.6M    0  223k    0     0  25385      0  0:17:37  0:00:09  0:17:28 21816  0 25.6M    0  239k    0     0  24593      0  0:18:11  0:00:09  0:18:02 19151  0 25.6M    0  255k    0     0  24210      0  0:18:29  0:00:10  0:18:19 19625  1 25.6M    1  271k    0     0  23392      0  0:19:07  0:00:11  0:18:56 21063  1 25.6M    1  287k    0     0  22732      0  0:19:41  0:00:12  0:19:29 19185  1 25.6M    1  303k    0     0  22543      0  0:19:51  0:00:13  0:19:38 17170  1 25.6M    1  319k    0     0  22169      0  0:20:11  0:00:14  0:19:57 17116  1 25.6M    1  351k    0     0  22709      0  0:19:42  0:00:15  0:19:27 19493  1 25.6M    1  383k    0     0  23341      0  0:19:10  0:00:16  0:18:54 23216  1 25.6M    1  415k    0     0  23908      0  0:18:43  0:00:17  0:18:26 27047  1 25.6M    1  431k    0     0  23277      0  0:19:13  0:00:18  0:18:55 25225  1 25.6M    1  447k    0     0  23114      0  0:19:21  0:00:19  0:19:02 25867  1 25.6M    1  463k    0     0  22775      0  0:19:39  0:00:20  0:19:19 22983  1 25.6M    1  495k    0     0  23155      0  0:19:19  0:00:21  0:18:58 22540  1 25.6M    1  511k    0     0  23010      0  0:19:26  0:00:22  0:19:04 19791  2 25.6M    2  543k    0     0  23328      0  0:19:11  0:00:23  0:18:48 23525  2 25.6M    2  559k    0     0  22952      0  0:19:29  0:00:24  0:19:05 22330  2 25.6M    2  575k    0     0  22730      0  0:19:41  0:00:25  0:19:16 22549  2 25.6M    2  591k    0     0  22236      0  0:20:07  0:00:27  0:19:40 18457  2 25.6M    2  591k    0     0  21337      0  0:20:58  0:00:28  0:20:30 14568  2 25.6M    2  591k    0     0  20999      0  0:21:18  0:00:28  0:20:50  9856  2 25.6M    2  607k    0     0  20908      0  0:21:24  0:00:29  0:20:55 10259  2 25.6M    2  623k    0     0  20699      0  0:21:37  0:00:30  0:21:07  9992  2 25.6M    2  655k    0     0  21066      0  0:21:14  0:00:31  0:20:43 14173  2 25.6M    2  671k    0     0  20835      0  0:21:28  0:00:33  0:20:55 17743  2 25.6M    2  687k    0     0  20795      0  0:21:31  0:00:33  0:20:58 19625  2 25.6M    2  719k    0     0  21205      0  0:21:06  0:00:34  0:20:32 22974  2 25.6M    2  767k    0     0  21932      0  0:20:24  0:00:35  0:19:49 29550  2 25.6M    2  783k    0     0  21807      0  0:20:31  0:00:36  0:19:55 26597  3 25.6M    3  799k    0     0  21659      0  0:20:39  0:00:37  0:20:02 27329  3 25.6M    3  847k    0     0  22380      0  0:19:59  0:00:38  0:19:21 33267  3 25.6M    3  863k    0     0  22244      0  0:20:07  0:00:39  0:19:28 29455  3 25.6M    3  911k    0     0  22854      0  0:19:34  0:00:40  0:18:54 29455  3 25.6M    3  927k    0     0  22714      0  0:19:42  0:00:41  0:19:01 29356  3 25.6M    3  959k    0     0  22966      0  0:19:29  0:00:42  0:18:47 32879  3 25.6M    3  991k    0     0  23141      0  0:19:20  0:00:43  0:18:37 28941  3 25.6M    3 1007k    0     0  22944      0  0:19:30  0:00:44  0:18:46 28286  3 25.6M    3 1039k    0     0  23233      0  0:19:15  0:00:45  0:18:30 26346  4 25.6M    4 1055k    0     0  23041      0  0:19:25  0:00:46  0:18:39 25730  4 25.6M    4 1087k    0     0  23318      0  0:19:11  0:00:47  0:18:24 26340  4 25.6M    4 1119k    0     0  23469      0  0:19:04  0:00:48  0:18:16 26351  4 25.6M    4 1151k    0     0  23668      0  0:18:54  0:00:49  0:18:05 30371  4 25.6M    4 1199k    0     0  24124      0  0:18:33  0:00:50  0:17:43 32131  4 25.6M    4 1247k    0     0  24680      0  0:18:08  0:00:51  0:17:17 40529  5 25.6M    5 1311k    0     0  25448      0  0:17:35  0:00:52  0:16:43 45728  5 25.6M    5 1327k    0     0  25204      0  0:17:45  0:00:53  0:16:52 41861  5 25.6M    5 1359k    0     0  25414      0  0:17:36  0:00:54  0:16:42 42950  5 25.6M    5 1391k    0     0  25560      0  0:17:30  0:00:55  0:16:35 40697  5 25.6M    5 1423k    0     0  25427      0  0:17:36  0:00:57  0:16:39 32373  5 25.6M    5 1455k    0     0  25726      0  0:17:23  0:00:57  0:16:26 28576  5 25.6M    5 1471k    0     0  25632      0  0:17:27  0:00:58  0:16:29 30397  5 25.6M    5 1535k    0     0  26311      0  0:17:00  0:00:59  0:16:01 36175  6 25.6M    6 1583k    0     0  26660      0  0:16:47  0:01:00  0:15:47 38740  6 25.6M    6 1615k    0     0  26775      0  0:16:42  0:01:01  0:15:41 44112  6 25.6M    6 1663k    0     0  27145      0  0:16:29  0:01:02  0:15:27 44189  6 25.6M    6 1695k    0     0  27144      0  0:16:29  0:01:03  0:15:26 44306  6 25.6M    6 1727k    0     0  27294      0  0:16:23  0:01:04  0:15:19 38916  6 25.6M    6 1743k    0     0  27139      0  0:16:29  0:01:05  0:15:24 33012  6 25.6M    6 1775k    0     0  27220      0  0:16:26  0:01:06  0:15:20 32702  6 25.6M    6 1823k    0     0  27505      0  0:16:16  0:01:07  0:15:09 31912  7 25.6M    7 1855k    0     0  27544      0  0:16:14  0:01:08  0:15:06 32650  7 25.6M    7 1871k    0     0  27446      0  0:16:18  0:01:09  0:15:09 29420  7 25.6M    7 1903k    0     0  27532      0  0:16:15  0:01:10  0:15:05 32696  7 25.6M    7 1935k    0     0  27616      0  0:16:12  0:01:11  0:15:01 32932  7 25.6M    7 1951k    0     0  27460      0  0:16:17  0:01:12  0:15:05 26826  7 25.6M    7 1999k    0     0  27630      0  0:16:11  0:01:14  0:14:57 28794  7 25.6M    7 2031k    0     0  27754      0  0:16:07  0:01:14  0:14:53 31956  7 25.6M    7 2047k    0     0  27659      0  0:16:10  0:01:15  0:14:55 29449  7 25.6M    7 2095k    0     0  27775      0  0:16:06  0:01:17  0:14:49 29854  8 25.6M    8 2111k    0     0  27768      0  0:16:07  0:01:17  0:14:50 32188  8 25.6M    8 2127k    0     0  27634      0  0:16:11  0:01:18  0:14:53 27699  8 25.6M    8 2159k    0     0  27629      0  0:16:11  0:01:20  0:14:51 25791  8 25.6M    8 2159k    0     0  27351      0  0:16:21  0:01:20  0:15:01 22719  8 25.6M    8 2175k    0     0  27229      0  0:16:26  0:01:21  0:15:05 17968  8 25.6M    8 2191k    0     0  27109      0  0:16:30  0:01:22  0:15:08 16667  8 25.6M    8 2239k    0     0  27333      0  0:16:22  0:01:23  0:14:59 22647  8 25.6M    8 2255k    0     0  27218      0  0:16:26  0:01:24  0:15:02 20382  8 25.6M    8 2303k    0     0  27482      0  0:16:17  0:01:25  0:14:52 29609  8 25.6M    8 2351k    0     0  27739      0  0:16:08  0:01:26  0:14:42 36109  9 25.6M    9 2367k    0     0  27620      0  0:16:12  0:01:27  0:14:45 36073  9 25.6M    9 2399k    0     0  27687      0  0:16:09  0:01:28  0:14:41 33802  9 25.6M    9 2431k    0     0  27718      0  0:16:08  0:01:29  0:14:39 36255  9 25.6M    9 2463k    0     0  27784      0  0:16:06  0:01:30  0:14:36 33018  9 25.6M    9 2479k    0     0  27632      0  0:16:11  0:01:31  0:14:40 25806  9 25.6M    9 2511k    0     0  27721      0  0:16:08  0:01:32  0:14:36 29491  9 25.6M    9 2543k    0     0  27714      0  0:16:08  0:01:33  0:14:35 28172  9 25.6M    9 2575k    0     0  27708      0  0:16:09  0:01:35  0:14:34 27541  9 25.6M    9 2591k    0     0  27703      0  0:16:09  0:01:35  0:14:34 26224 10 25.6M   10 2623k    0     0  27732      0  0:16:08  0:01:36  0:14:32 29562 10 25.6M   10 2655k    0     0  27808      0  0:16:05  0:01:37  0:14:28 29426 10 25.6M   10 2671k    0     0  27701      0  0:16:09  0:01:38  0:14:31 27443 10 25.6M   10 2703k    0     0  27725      0  0:16:08  0:01:39  0:14:29 28084 10 25.6M   10 2719k    0     0  27587      0  0:16:13  0:01:40  0:14:33 25436 10 25.6M   10 2751k    0     0  27678      0  0:16:10  0:01:41  0:14:29 26619 10 25.6M   10 2767k    0     0  27576      0  0:16:13  0:01:42  0:14:31 23015 10 25.6M   10 2815k    0     0  27783      0  0:16:06  0:01:43  0:14:23 29408 10 25.6M   10 2831k    0     0  27657      0  0:16:10  0:01:44  0:14:26 26293 10 25.6M   10 2879k    0     0  27868      0  0:16:03  0:01:45  0:14:18 33684 11 25.6M   11 2927k    0     0  28074      0  0:15:56  0:01:46  0:14:10 36167 11 25.6M   11 2943k    0     0  27973      0  0:15:59  0:01:47  0:14:12 36175 11 25.6M   11 2959k    0     0  27848      0  0:16:04  0:01:48  0:14:16 29193 11 25.6M   11 2991k    0     0  27904      0  0:16:02  0:01:49  0:14:13 33125 11 25.6M   11 3007k    0     0  27807      0  0:16:05  0:01:50  0:14:15 26511 11 25.6M   11 3055k    0     0  27914      0  0:16:01  0:01:52  0:14:09 24702 11 25.6M   11 3071k    0     0  27850      0  0:16:04  0:01:52  0:14:12 25283 11 25.6M   11 3087k    0     0  27789      0  0:16:06  0:01:53  0:14:13 26484 11 25.6M   11 3103k    0     0  27672      0  0:16:10  0:01:54  0:14:16 22656 11 25.6M   11 3119k    0     0  27584      0  0:16:13  0:01:55  0:14:18 22688 12 25.6M   12 3151k    0     0  27471      0  0:16:17  0:01:57  0:14:20 18241 12 25.6M   12 3151k    0     0  27386      0  0:16:20  0:01:57  0:14:23 16704 12 25.6M   12 3183k    0     0  27438      0  0:16:18  0:01:58  0:14:20 19508 12 25.6M   12 3215k    0     0  27489      0  0:16:16  0:01:59  0:14:17 23216 12 25.6M   12 3231k    0     0  27351      0  0:16:21  0:02:00  0:14:21 22157 12 25.6M   12 3247k    0     0  27268      0  0:16:24  0:02:01  0:14:23 21952 12 25.6M   12 3263k    0     0  27214      0  0:16:26  0:02:02  0:14:24 23131 12 25.6M   12 3295k    0     0  27239      0  0:16:25  0:02:03  0:14:22 22585 12 25.6M   12 3311k    0     0  27159      0  0:16:28  0:02:04  0:14:24 19377 12 25.6M   12 3327k    0     0  27085      0  0:16:31  0:02:05  0:14:26 20407 12 25.6M   12 3343k    0     0  27007      0  0:16:34  0:02:06  0:14:28 20399 12 25.6M   12 3375k    0     0  27036      0  0:16:33  0:02:07  0:14:26 22701 12 25.6M   12 3391k    0     0  26937      0  0:16:36  0:02:08  0:14:28 19512 12 25.6M   12 3407k    0     0  26889      0  0:16:38  0:02:09  0:14:29 20025 13 25.6M   13 3455k    0     0  27057      0  0:16:32  0:02:10  0:14:22 26340 13 25.6M   13 3503k    0     0  27181      0  0:16:27  0:02:11  0:14:16 31399 13 25.6M   13 3519k    0     0  27105      0  0:16:30  0:02:12  0:14:18 28850 13 25.6M   13 3551k    0     0  27178      0  0:16:28  0:02:13  0:14:15 33553 13 25.6M   13 3567k    0     0  27054      0  0:16:32  0:02:15  0:14:17 31124 13 25.6M   13 3583k    0     0  27006      0  0:16:34  0:02:15  0:14:19 25695 13 25.6M   13 3599k    0     0  26923      0  0:16:37  0:02:16  0:14:21 20004 13 25.6M   13 3615k    0     0  26876      0  0:16:39  0:02:17  0:14:22 20505 13 25.6M   13 3647k    0     0  26902      0  0:16:38  0:02:18  0:14:20 19559 14 25.6M   14 3695k    0     0  27067      0  0:16:32  0:02:19  0:14:13 27415 14 25.6M   14 3711k    0     0  27003      0  0:16:34  0:02:20  0:14:14 26908 14 25.6M   14 3727k    0     0  26910      0  0:16:37  0:02:21  0:14:16 26554 14 25.6M   14 3759k    0     0  26958      0  0:16:36  0:02:22  0:14:14 29210 14 25.6M   14 3791k    0     0  26981      0  0:16:35  0:02:23  0:14:12 29158 14 25.6M   14 3807k    0     0  26892      0  0:16:38  0:02:24  0:14:14 22161 14 25.6M   14 3823k    0     0  26703      0  0:16:45  0:02:26  0:14:19 19531 14 25.6M   14 3823k    0     0  26629      0  0:16:48  0:02:27  0:14:21 18948 14 25.6M   14 3839k    0     0  26599      0  0:16:49  0:02:27  0:14:22 16364 14 25.6M   14 3871k    0     0  26594      0  0:16:49  0:02:29  0:14:20 15823 14 25.6M   14 3887k    0     0  26564      0  0:16:50  0:02:29  0:14:21 16821 14 25.6M   14 3903k    0     0  26509      0  0:16:52  0:02:30  0:14:22 19668 15 25.6M   15 3951k    0     0  26613      0  0:16:48  0:02:32  0:14:16 26151 15 25.6M   15 3951k    0     0  26488      0  0:16:53  0:02:32  0:14:21 23164 15 25.6M   15 3999k    0     0  26621      0  0:16:48  0:02:33  0:14:15 27472 15 25.6M   15 4015k    0     0  26561      0  0:16:50  0:02:34  0:14:16 26457 15 25.6M   15 4047k    0     0  26570      0  0:16:50  0:02:35  0:14:15 28346 15 25.6M   15 4063k    0     0  26530      0  0:16:52  0:02:36  0:14:16 23898 15 25.6M   15 4063k    0     0  26373      0  0:16:58  0:02:37  0:14:21 22868 15 25.6M   15 4095k    0     0  26398      0  0:16:57  0:02:38  0:14:19 19566 15 25.6M   15 4127k    0     0  26422      0  0:16:56  0:02:39  0:14:17 22256 15 25.6M   15 4143k    0     0  26386      0  0:16:57  0:02:40  0:14:17 20407 15 25.6M   15 4159k    0     0  26329      0  0:16:59  0:02:41  0:14:18 19915 15 25.6M   15 4191k    0     0  26334      0  0:16:59  0:02:42  0:14:17 25152 16 25.6M   16 4223k    0     0  26397      0  0:16:57  0:02:43  0:14:14 26377 16 25.6M   16 4239k    0     0  26324      0  0:17:00  0:02:44  0:14:16 23145 16 25.6M   16 4255k    0     0  26288      0  0:17:01  0:02:45  0:14:16 23108 16 25.6M   16 4271k    0     0  26144      0  0:17:07  0:02:47  0:14:20 20742 16 25.6M   16 4287k    0     0  26147      0  0:17:06  0:02:47  0:14:19 19960 16 25.6M   16 4303k    0     0  26077      0  0:17:09  0:02:48  0:14:21 15894 16 25.6M   16 4335k    0     0  26139      0  0:17:07  0:02:49  0:14:18 19960 16 25.6M   16 4367k    0     0  26182      0  0:17:05  0:02:50  0:14:15 22723 16 25.6M   16 4399k    0     0  26210      0  0:17:04  0:02:51  0:14:13 28637 16 25.6M   16 4415k    0     0  26141      0  0:17:07  0:02:52  0:14:15 25965 16 25.6M   16 4447k    0     0  26202      0  0:17:04  0:02:53  0:14:11 30611 17 25.6M   17 4463k    0     0  26151      0  0:17:06  0:02:54  0:14:12 26532 17 25.6M   17 4495k    0     0  26193      0  0:17:05  0:02:55  0:14:10 26548 17 25.6M   17 4527k    0     0  26200      0  0:17:04  0:02:56  0:14:08 25852 17 25.6M   17 4543k    0     0  26167      0  0:17:06  0:02:57  0:14:09 27080 17 25.6M   17 4591k    0     0  26294      0  0:17:01  0:02:58  0:14:03 29491 17 25.6M   17 4623k    0     0  26340      0  0:16:59  0:02:59  0:14:00 33012 17 25.6M   17 4639k    0     0  26274      0  0:17:02  0:03:00  0:14:02 29112 17 25.6M   17 4671k    0     0  26314      0  0:17:00  0:03:01  0:13:59 30491 17 25.6M   17 4687k    0     0  26266      0  0:17:02  0:03:02  0:14:00 29807 17 25.6M   17 4719k    0     0  26288      0  0:17:01  0:03:03  0:13:58 26063 18 25.6M   18 4767k    0     0  26398      0  0:16:57  0:03:04  0:13:53 28411 18 25.6M   18 4783k    0     0  26367      0  0:16:58  0:03:05  0:13:53 29729 18 25.6M   18 4815k    0     0  26405      0  0:16:56  0:03:06  0:13:50 29729 18 25.6M   18 4847k    0     0  26411      0  0:16:56  0:03:07  0:13:49 31507 18 25.6M   18 4863k    0     0  26363      0  0:16:58  0:03:08  0:13:50 29095 18 25.6M   18 4879k    0     0  26331      0  0:16:59  0:03:09  0:13:50 23754 18 25.6M   18 4911k    0     0  26354      0  0:16:58  0:03:10  0:13:48 25883 18 25.6M   18 4927k    0     0  26307      0  0:17:00  0:03:11  0:13:49 22679 18 25.6M   18 4959k    0     0  26312      0  0:17:00  0:03:13  0:13:47 22656 18 25.6M   18 4975k    0     0  26283      0  0:17:01  0:03:13  0:13:48 23225 19 25.6M   19 4991k    0     0  26237      0  0:17:03  0:03:14  0:13:49 22710 19 25.6M   19 5039k    0     0  26358      0  0:16:58  0:03:15  0:13:43 26505 19 25.6M   19 5087k    0     0  26477      0  0:16:54  0:03:16  0:13:38 33072 19 25.6M   19 5151k    0     0  26657      0  0:16:47  0:03:17  0:13:30 40296 19 25.6M   19 5199k    0     0  26746      0  0:16:43  0:03:19  0:13:24 43941 19 25.6M   19 5215k    0     0  26732      0  0:16:44  0:03:19  0:13:25 46133 20 25.6M   20 5263k    0     0  26826      0  0:16:40  0:03:20  0:13:20 44730 20 25.6M   20 5279k    0     0  26779      0  0:16:42  0:03:21  0:13:21 38377 20 25.6M   20 5327k    0     0  26893      0  0:16:38  0:03:22  0:13:16 36291 20 25.6M   20 5343k    0     0  26845      0  0:16:40  0:03:23  0:13:17 30997 20 25.6M   20 5375k    0     0  26878      0  0:16:39  0:03:24  0:13:15 32689 20 25.6M   20 5407k    0     0  26910      0  0:16:37  0:03:25  0:13:12 30371 20 25.6M   20 5455k    0     0  27021      0  0:16:33  0:03:26  0:13:07 37060 20 25.6M   20 5487k    0     0  27037      0  0:16:33  0:03:27  0:13:06 32879 21 25.6M   21 5519k    0     0  26978      0  0:16:35  0:03:29  0:13:06 31757 21 25.6M   21 5519k    0     0  26947      0  0:16:36  0:03:29  0:13:07 29801 21 25.6M   21 5551k    0     0  26963      0  0:16:35  0:03:30  0:13:05 29101 21 25.6M   21 5567k    0     0  26919      0  0:16:37  0:03:31  0:13:06 22746 21 25.6M   21 5599k    0     0  26937      0  0:16:36  0:03:32  0:13:04 22805 21 25.6M   21 5631k    0     0  26978      0  0:16:35  0:03:33  0:13:02 26953 21 25.6M   21 5647k    0     0  26917      0  0:16:37  0:03:34  0:13:03 25685 21 25.6M   21 5679k    0     0  26932      0  0:16:37  0:03:35  0:13:02 25675 21 25.6M   21 5711k    0     0  26963      0  0:16:35  0:03:36  0:12:59 28771 21 25.6M   21 5727k    0     0  26934      0  0:16:36  0:03:37  0:12:59 26804 21 25.6M   21 5759k    0     0  26921      0  0:16:37  0:03:39  0:12:58 24651 22 25.6M   22 5775k    0     0  26878      0  0:16:39  0:03:40  0:12:59 25279 22 25.6M   22 5791k    0     0  26849      0  0:16:40  0:03:40  0:13:00 23216 22 25.6M   22 5823k    0     0  26879      0  0:16:38  0:03:41  0:12:57 23206 22 25.6M   22 5871k    0     0  26969      0  0:16:35  0:03:42  0:12:53 28438 22 25.6M   22 5887k    0     0  26940      0  0:16:36  0:03:43  0:12:53 27804 22 25.6M   22 5903k    0     0  26897      0  0:16:38  0:03:44  0:12:54 27781 22 25.6M   22 5935k    0     0  26886      0  0:16:38  0:03:46  0:12:52 28471 22 25.6M   22 5935k    0     0  26790      0  0:16:42  0:03:46  0:12:56 22828 22 25.6M   22 5951k    0     0  26749      0  0:16:43  0:03:47  0:12:56 16759 22 25.6M   22 5967k    0     0  26712      0  0:16:45  0:03:48  0:12:57 16453 22 25.6M   22 5983k    0     0  26658      0  0:16:47  0:03:49  0:12:58 16084 22 25.6M   22 6015k    0     0  26687      0  0:16:46  0:03:50  0:12:56 17224 23 25.6M   23 6047k    0     0  26713      0  0:16:45  0:03:51  0:12:54 23211 23 25.6M   23 6079k    0     0  26743      0  0:16:44  0:03:52  0:12:52 26431 23 25.6M   23 6127k    0     0  26828      0  0:16:40  0:03:53  0:12:47 32050 23 25.6M   23 6159k    0     0  26867      0  0:16:39  0:03:54  0:12:45 36668 23 25.6M   23 6207k    0     0  26951      0  0:16:36  0:03:55  0:12:41 39048 23 25.6M   23 6239k    0     0  26965      0  0:16:35  0:03:56  0:12:39 38355 23 25.6M   23 6255k    0     0  26938      0  0:16:36  0:03:57  0:12:39 36008 24 25.6M   24 6303k    0     0  26966      0  0:16:35  0:03:59  0:12:36 32851 24 25.6M   24 6303k    0     0  26913      0  0:16:37  0:03:59  0:12:38 29003 24 25.6M   24 6319k    0     0  26872      0  0:16:39  0:04:00  0:12:39 23108 24 25.6M   24 6367k    0     0  26967      0  0:16:35  0:04:01  0:12:34 27058 24 25.6M   24 6399k    0     0  26994      0  0:16:34  0:04:02  0:12:32 29699 24 25.6M   24 6463k    0     0  27123      0  0:16:30  0:04:04  0:12:26 35189 24 25.6M   24 6479k    0     0  27109      0  0:16:30  0:04:04  0:12:26 36720 24 25.6M   24 6511k    0     0  27122      0  0:16:30  0:04:05  0:12:25 39079 24 25.6M   24 6527k    0     0  27081      0  0:16:31  0:04:06  0:12:25 32585 24 25.6M   24 6543k    0     0  27040      0  0:16:33  0:04:07  0:12:26 29233 25 25.6M   25 6575k    0     0  27067      0  0:16:32  0:04:08  0:12:24 24170 25 25.6M   25 6639k    0     0  27192      0  0:16:27  0:04:10  0:12:17 31047 25 25.6M   25 6671k    0     0  27244      0  0:16:25  0:04:10  0:12:15 33382 25 25.6M   25 6719k    0     0  27321      0  0:16:22  0:04:11  0:12:11 39063 25 25.6M   25 6767k    0     0  27410      0  0:16:19  0:04:12  0:12:07 45710 25 25.6M   25 6799k    0     0  27413      0  0:16:19  0:04:13  0:12:06 43933 26 25.6M   26 6831k    0     0  27451      0  0:16:18  0:04:14  0:12:04 40874 26 25.6M   26 6879k    0     0  27525      0  0:16:15  0:04:15  0:12:00 41141 26 25.6M   26 6895k    0     0  27486      0  0:16:16  0:04:16  0:12:00 35723 26 25.6M   26 6927k    0     0  27510      0  0:16:16  0:04:17  0:11:59 32507 26 25.6M   26 6959k    0     0  27533      0  0:16:15  0:04:18  0:11:57 33795 26 25.6M   26 7007k    0     0  27606      0  0:16:12  0:04:19  0:11:53 35393 26 25.6M   26 7039k    0     0  27642      0  0:16:11  0:04:20  0:11:51 33795 26 25.6M   26 7071k    0     0  27652      0  0:16:11  0:04:21  0:11:50 36233 27 25.6M   27 7087k    0     0  27613      0  0:16:12  0:04:22  0:11:50 32979 27 25.6M   27 7103k    0     0  27577      0  0:16:13  0:04:23  0:11:50 29903 27 25.6M   27 7135k    0     0  27589      0  0:16:13  0:04:24  0:11:49 26667 27 25.6M   27 7151k    0     0  27549      0  0:16:14  0:04:25  0:11:49 22755 27 25.6M   27 7167k    0     0  27505      0  0:16:16  0:04:26  0:11:50 19783 27 25.6M   27 7199k    0     0  27507      0  0:16:16  0:04:28  0:11:48 22131 27 25.6M   27 7215k    0     0  27479      0  0:16:17  0:04:28  0:11:49 22408 27 25.6M   27 7247k    0     0  27488      0  0:16:16  0:04:29  0:11:47 22308 27 25.6M   27 7279k    0     0  27523      0  0:16:15  0:04:30  0:11:45 26141 27 25.6M   27 7311k    0     0  27533      0  0:16:15  0:04:31  0:11:44 29003 27 25.6M   27 7327k    0     0  27497      0  0:16:16  0:04:32  0:11:44 26936 28 25.6M   28 7359k    0     0  27519      0  0:16:15  0:04:33  0:11:42 29711 28 25.6M   28 7375k    0     0  27482      0  0:16:17  0:04:34  0:11:43 27108 28 25.6M   28 7439k    0     0  27611      0  0:16:12  0:04:35  0:11:37 32277 28 25.6M   28 7471k    0     0  27644      0  0:16:11  0:04:36  0:11:35 33886 28 25.6M   28 7535k    0     0  27778      0  0:16:06  0:04:37  0:11:29 43405 28 25.6M   28 7583k    0     0  27858      0  0:16:03  0:04:38  0:11:25 46716 29 25.6M   29 7631k    0     0  27918      0  0:16:01  0:04:39  0:11:22 51481 29 25.6M   29 7663k    0     0  27946      0  0:16:00  0:04:40  0:11:20 46849 29 25.6M   29 7679k    0     0  27909      0  0:16:02  0:04:41  0:11:21 42504 29 25.6M   29 7711k    0     0  27919      0  0:16:01  0:04:42  0:11:19 35694 29 25.6M   29 7727k    0     0  27882      0  0:16:03  0:04:43  0:11:20 29210 29 25.6M   29 7775k    0     0  27959      0  0:16:00  0:04:44  0:11:16 30315 29 25.6M   29 7807k    0     0  27955      0  0:16:00  0:04:45  0:11:15 28466 29 25.6M   29 7823k    0     0  27930      0  0:16:01  0:04:46  0:11:15 29118 29 25.6M   29 7855k    0     0  27934      0  0:16:01  0:04:47  0:11:14 28743 30 25.6M   30 7871k    0     0  27909      0  0:16:02  0:04:48  0:11:14 29438 30 25.6M   30 7903k    0     0  27928      0  0:16:01  0:04:49  0:11:12 26172 30 25.6M   30 7935k    0     0  27949      0  0:16:00  0:04:50  0:11:10 27530 30 25.6M   30 7951k    0     0  27900      0  0:16:02  0:04:51  0:11:11 26188 30 25.6M   30 7983k    0     0  27908      0  0:16:02  0:04:52  0:11:10 26383 30 25.6M   30 8015k    0     0  27939      0  0:16:01  0:04:53  0:11:08 29681 30 25.6M   30 8047k    0     0  27946      0  0:16:00  0:04:54  0:11:06 28975 30 25.6M   30 8079k    0     0  27965      0  0:16:00  0:04:55  0:11:05 28929 30 25.6M   30 8111k    0     0  27984      0  0:15:59  0:04:56  0:11:03 32912 31 25.6M   31 8143k    0     0  28003      0  0:15:58  0:04:57  0:11:01 33753 31 25.6M   31 8175k    0     0  28010      0  0:15:58  0:04:58  0:11:00 32131 31 25.6M   31 8223k    0     0  28091      0  0:15:55  0:04:59  0:10:56 36802 31 25.6M   31 8271k    0     0  28159      0  0:15:53  0:05:00  0:10:53 39694 31 25.6M   31 8335k    0     0  28285      0  0:15:49  0:05:01  0:10:48 46301 31 25.6M   31 8367k    0     0  28291      0  0:15:49  0:05:02  0:10:47 45188 32 25.6M   32 8399k    0     0  28309      0  0:15:48  0:05:03  0:10:45 46329 32 25.6M   32 8415k    0     0  28273      0  0:15:49  0:05:04  0:10:45 39141 32 25.6M   32 8463k    0     0  28344      0  0:15:47  0:05:05  0:10:42 39558 32 25.6M   32 8511k    0     0  28410      0  0:15:45  0:05:06  0:10:39 35958 32 25.6M   32 8559k    0     0  28472      0  0:15:43  0:05:07  0:10:36 39503 32 25.6M   32 8575k    0     0  28427      0  0:15:44  0:05:08  0:10:36 35491 32 25.6M   32 8591k    0     0  28402      0  0:15:45  0:05:09  0:10:36 36364 32 25.6M   32 8607k    0     0  28355      0  0:15:46  0:05:10  0:10:36 29061 32 25.6M   32 8639k    0     0  28375      0  0:15:46  0:05:11  0:10:35 26193 33 25.6M   33 8671k    0     0  28380      0  0:15:46  0:05:12  0:10:34 22755 33 25.6M   33 8703k    0     0  28386      0  0:15:45  0:05:13  0:10:32 25898 33 25.6M   33 8735k    0     0  28413      0  0:15:45  0:05:14  0:10:31 29078 33 25.6M   33 8767k    0     0  28419      0  0:15:44  0:05:15  0:10:29 32302 33 25.6M   33 8783k    0     0  28395      0  0:15:45  0:05:16  0:10:29 29705 33 25.6M   33 8831k    0     0  28460      0  0:15:43  0:05:17  0:10:26 33539 33 25.6M   33 8879k    0     0  28516      0  0:15:41  0:05:18  0:10:23 36885 34 25.6M   34 8927k    0     0  28583      0  0:15:39  0:05:19  0:10:20 39258 34 25.6M   34 8959k    0     0  28599      0  0:15:38  0:05:20  0:10:18 40222 34 25.6M   34 8991k    0     0  28614      0  0:15:38  0:05:21  0:10:17 42394 34 25.6M   34 9007k    0     0  28575      0  0:15:39  0:05:22  0:10:17 35894 34 25.6M   34 9039k    0     0  28592      0  0:15:39  0:05:23  0:10:16 33505 34 25.6M   34 9055k    0     0  28547      0  0:15:40  0:05:24  0:10:16 26214 34 25.6M   34 9087k    0     0  28554      0  0:15:40  0:05:25  0:10:15 25730 34 25.6M   34 9119k    0     0  28579      0  0:15:39  0:05:26  0:10:13 26346 34 25.6M   34 9135k    0     0  28535      0  0:15:41  0:05:27  0:10:14 25959 34 25.6M   34 9167k    0     0  28550      0  0:15:40  0:05:28  0:10:12 25903 35 25.6M   35 9231k    0     0  28651      0  0:15:37  0:05:29  0:10:08 35303 35 25.6M   35 9279k    0     0  28716      0  0:15:35  0:05:30  0:10:05 39250 35 25.6M   35 9295k    0     0  28672      0  0:15:36  0:05:31  0:10:05 34446 35 25.6M   35 9311k    0     0  28649      0  0:15:37  0:05:32  0:10:05 36146 35 25.6M   35 9327k    0     0  28615      0  0:15:38  0:05:33  0:10:05 32932 35 25.6M   35 9375k    0     0  28679      0  0:15:36  0:05:34  0:10:02 30624 35 25.6M   35 9439k    0     0  28781      0  0:15:32  0:05:35  0:09:57 33152 36 25.6M   36 9471k    0     0  28795      0  0:15:32  0:05:36  0:09:56 37267 36 25.6M   36 9503k    0     0  28809      0  0:15:32  0:05:37  0:09:55 39543 36 25.6M   36 9519k    0     0  28766      0  0:15:33  0:05:38  0:09:55 38603 36 25.6M   36 9551k    0     0  28732      0  0:15:34  0:05:40  0:09:54 31881 36 25.6M   36 9551k    0     0  28702      0  0:15:35  0:05:40  0:09:55 23296 36 25.6M   36 9599k    0     0  28744      0  0:15:34  0:05:41  0:09:53 25367 36 25.6M   36 9615k    0     0  28708      0  0:15:35  0:05:42  0:09:53 22089 36 25.6M   36 9631k    0     0  28684      0  0:15:36  0:05:43  0:09:53 23141 36 25.6M   36 9663k    0     0  28699      0  0:15:35  0:05:44  0:09:51 26083 36 25.6M   36 9679k    0     0  28599      0  0:15:38  0:05:46  0:09:52 22571 36 25.6M   36 9695k    0     0  28626      0  0:15:38  0:05:46  0:09:52 20323 37 25.6M   37 9727k    0     0  28631      0  0:15:37  0:05:47  0:09:50 23263 37 25.6M   37 9759k    0     0  28655      0  0:15:37  0:05:48  0:09:49 26575 37 25.6M   37 9791k    0     0  28660      0  0:15:36  0:05:49  0:09:47 26001 37 25.6M   37 9823k    0     0  28674      0  0:15:36  0:05:50  0:09:46 34793 37 25.6M   37 9855k    0     0  28688      0  0:15:36  0:05:51  0:09:45 32979 37 25.6M   37 9887k    0     0  28692      0  0:15:35  0:05:52  0:09:43 33018 37 25.6M   37 9919k    0     0  28707      0  0:15:35  0:05:53  0:09:42 32321 37 25.6M   37 9935k    0     0  28675      0  0:15:36  0:05:54  0:09:42 29729 38 25.6M   38 9967k    0     0  28689      0  0:15:35  0:05:55  0:09:40 29789 38 25.6M   38 9999k    0     0  28693      0  0:15:35  0:05:56  0:09:39 29106 38 25.6M   38  9.8M    0     0  28743      0  0:15:34  0:05:57  0:09:37 32264 38 25.6M   38  9.8M    0     0  28812      0  0:15:31  0:05:58  0:09:33 36269 38 25.6M   38  9.8M    0     0  28825      0  0:15:31  0:05:59  0:09:32 39503 38 25.6M   38  9.9M    0     0  28883      0  0:15:29  0:06:00  0:09:29 42718 38 25.6M   38  9.9M    0     0  28921      0  0:15:28  0:06:01  0:09:27 44800 39 25.6M   39  9.9M    0     0  28899      0  0:15:29  0:06:02  0:09:27 40346 39 25.6M   39 10.0M    0     0  28867      0  0:15:30  0:06:03  0:09:27 32846 39 25.6M   39 10.0M    0     0  28970      0  0:15:26  0:06:04  0:09:22 39463 39 25.6M   39 10.1M    0     0  28989      0  0:15:26  0:06:06  0:09:20 35956 39 25.6M   39 10.1M    0     0  28984      0  0:15:26  0:06:06  0:09:20 33663 39 25.6M   39 10.1M    0     0  28952      0  0:15:27  0:06:07  0:09:20 32813 39 25.6M   39 10.1M    0     0  28962      0  0:15:27  0:06:08  0:09:19 35772 39 25.6M   39 10.2M    0     0  28977      0  0:15:26  0:06:09  0:09:17 29508 40 25.6M   40 10.2M    0     0  29024      0  0:15:25  0:06:10  0:09:15 31799 40 25.6M   40 10.2M    0     0  29042      0  0:15:24  0:06:11  0:09:13 33341 40 25.6M   40 10.3M    0     0  29046      0  0:15:24  0:06:12  0:09:12 35908 40 25.6M   40 10.3M    0     0  29102      0  0:15:22  0:06:13  0:09:09 39455 40 25.6M   40 10.4M    0     0  29116      0  0:15:22  0:06:14  0:09:08 39376 40 25.6M   40 10.4M    0     0  29113      0  0:15:22  0:06:15  0:09:07 35680 40 25.6M   40 10.4M    0     0  29039      0  0:15:24  0:06:16  0:09:08 28822 40 25.6M   40 10.4M    0     0  29085      0  0:15:23  0:06:17  0:09:06 31943 41 25.6M   41 10.4M    0     0  29063      0  0:15:23  0:06:18  0:09:05 26198 41 25.6M   41 10.5M    0     0  29075      0  0:15:23  0:06:19  0:09:04 26058 41 25.6M   41 10.5M    0     0  29130      0  0:15:21  0:06:20  0:09:01 30428 41 25.6M   41 10.6M    0     0  29166      0  0:15:20  0:06:21  0:08:59 38588 41 25.6M   41 10.6M    0     0  29220      0  0:15:18  0:06:22  0:08:56 39503 41 25.6M   41 10.7M    0     0  29188      0  0:15:19  0:06:24  0:08:55 37544 41 25.6M   41 10.7M    0     0  29161      0  0:15:20  0:06:24  0:08:56 35561 41 25.6M   41 10.7M    0     0  29171      0  0:15:20  0:06:25  0:08:55 32251 41 25.6M   41 10.7M    0     0  29122      0  0:15:22  0:06:27  0:08:55 25806 42 25.6M   42 10.7M    0     0  29076      0  0:15:23  0:06:28  0:08:55 18625 42 25.6M   42 10.7M    0     0  29068      0  0:15:23  0:06:28  0:08:55 18567 42 25.6M   42 10.7M    0     0  29037      0  0:15:24  0:06:29  0:08:55 19570 42 25.6M   42 10.8M    0     0  29090      0  0:15:23  0:06:30  0:08:53 22859 42 25.6M   42 10.8M    0     0  29101      0  0:15:22  0:06:31  0:08:51 27432 42 25.6M   42 10.9M    0     0  29113      0  0:15:22  0:06:32  0:08:50 32209 42 25.6M   42 10.9M    0     0  29083      0  0:15:23  0:06:33  0:08:50 30266 42 25.6M   42 10.9M    0     0  29126      0  0:15:21  0:06:34  0:08:47 36109 43 25.6M   43 11.0M    0     0  29179      0  0:15:20  0:06:35  0:08:45 36131 43 25.6M   43 11.0M    0     0  29190      0  0:15:19  0:06:36  0:08:43 36153 43 25.6M   43 11.0M    0     0  29191      0  0:15:19  0:06:37  0:08:42 35179 43 25.6M   43 11.1M    0     0  29211      0  0:15:19  0:06:38  0:08:41 39305 43 25.6M   43 11.1M    0     0  29254      0  0:15:17  0:06:39  0:08:38 39329 43 25.6M   43 11.1M    0     0  29225      0  0:15:18  0:06:40  0:08:38 32860 43 25.6M   43 11.2M    0     0  29228      0  0:15:18  0:06:41  0:08:37 32175 43 25.6M   43 11.2M    0     0  29164      0  0:15:20  0:06:43  0:08:37 27220 43 25.6M   43 11.2M    0     0  29170      0  0:15:20  0:06:43  0:08:37 25944 44 25.6M   44 11.2M    0     0  29210      0  0:15:19  0:06:44  0:08:35 25730 44 25.6M   44 11.2M    0     0  29192      0  0:15:19  0:06:45  0:08:34 26505 44 25.6M   44 11.3M    0     0  29154      0  0:15:21  0:06:46  0:08:35 23183 44 25.6M   44 11.3M    0     0  29126      0  0:15:21  0:06:47  0:08:34 25628 44 25.6M   44 11.3M    0     0  29047      0  0:15:24  0:06:49  0:08:35 20284 44 25.6M   44 11.3M    0     0  29061      0  0:15:23  0:06:49  0:08:34 16769 44 25.6M   44 11.3M    0     0  29073      0  0:15:23  0:06:50  0:08:33 19489 44 25.6M   44 11.4M    0     0  29035      0  0:15:24  0:06:51  0:08:33 19439 44 25.6M   44 11.4M    0     0  29055      0  0:15:24  0:06:52  0:08:32 23197 44 25.6M   44 11.4M    0     0  29088      0  0:15:23  0:06:53  0:08:30 32797 44 25.6M   44 11.5M    0     0  29107      0  0:15:22  0:06:54  0:08:28 32886 45 25.6M   45 11.5M    0     0  29158      0  0:15:20  0:06:55  0:08:25 36175 45 25.6M   45 11.5M    0     0  29129      0  0:15:21  0:06:56  0:08:25 37098 45 25.6M   45 11.6M    0     0  29124      0  0:15:21  0:06:57  0:08:24 34598 45 25.6M   45 11.6M    0     0  29104      0  0:15:22  0:06:58  0:08:24 30447 45 25.6M   45 11.6M    0     0  29069      0  0:15:23  0:06:59  0:08:24 25893 45 25.6M   45 11.6M    0     0  29071      0  0:15:23  0:07:00  0:08:23 22123 45 25.6M   45 11.7M    0     0  29090      0  0:15:23  0:07:01  0:08:22 25877 45 25.6M   45 11.7M    0     0  29063      0  0:15:23  0:07:02  0:08:21 23794 45 25.6M   45 11.7M    0     0  29074      0  0:15:23  0:07:03  0:08:20 26522 46 25.6M   46 11.7M    0     0  29069      0  0:15:23  0:07:04  0:08:19 29078 46 25.6M   46 11.7M    0     0  29049      0  0:15:24  0:07:05  0:08:19 27131 46 25.6M   46 11.8M    0     0  29060      0  0:15:24  0:07:06  0:08:18 26479 46 25.6M   46 11.8M    0     0  29062      0  0:15:23  0:07:07  0:08:16 28992 46 25.6M   46 11.8M    0     0  29038      0  0:15:24  0:07:08  0:08:16 26052 46 25.6M   46 11.9M    0     0  29048      0  0:15:24  0:07:09  0:08:15 27232 46 25.6M   46 11.9M    0     0  29042      0  0:15:24  0:07:10  0:08:14 28493 46 25.6M   46 11.9M    0     0  29007      0  0:15:25  0:07:12  0:08:13 24744 46 25.6M   46 11.9M    0     0  28981      0  0:15:26  0:07:13  0:08:13 22222 46 25.6M   46 11.9M    0     0  28971      0  0:15:26  0:07:13  0:08:13 23117 46 25.6M   46 12.0M    0     0  28973      0  0:15:26  0:07:14  0:08:12 22616 47 25.6M   47 12.0M    0     0  28984      0  0:15:26  0:07:15  0:08:11 23804 47 25.6M   47 12.0M    0     0  28995      0  0:15:26  0:07:16  0:08:10 27899 47 25.6M   47 12.1M    0     0  29003      0  0:15:25  0:07:17  0:08:08 31043 47 25.6M   47 12.1M    0     0  29006      0  0:15:25  0:07:18  0:08:07 32012 47 25.6M   47 12.1M    0     0  28980      0  0:15:26  0:07:19  0:08:07 29562 47 25.6M   47 12.2M    0     0  29019      0  0:15:25  0:07:20  0:08:05 31993 47 25.6M   47 12.2M    0     0  29001      0  0:15:25  0:07:21  0:08:04 29532 47 25.6M   47 12.2M    0     0  28957      0  0:15:27  0:07:23  0:08:04 25484 47 25.6M   47 12.2M    0     0  28941      0  0:15:27  0:07:23  0:08:04 23188 47 25.6M   47 12.2M    0     0  28915      0  0:15:28  0:07:24  0:08:04 23150 48 25.6M   48 12.3M    0     0  28962      0  0:15:27  0:07:25  0:08:02 23725 48 25.6M   48 12.3M    0     0  28933      0  0:15:28  0:07:26  0:08:02 22928 48 25.6M   48 12.3M    0     0  28928      0  0:15:28  0:07:27  0:08:01 25982 48 25.6M   48 12.3M    0     0  28909      0  0:15:28  0:07:28  0:08:00 26104 48 25.6M   48 12.4M    0     0  28913      0  0:15:28  0:07:29  0:07:59 28715 48 25.6M   48 12.4M    0     0  28895      0  0:15:29  0:07:30  0:07:59 22951 48 25.6M   48 12.4M    0     0  28890      0  0:15:29  0:07:31  0:07:58 25211 48 25.6M   48 12.4M    0     0  28872      0  0:15:30  0:07:32  0:07:58 23725 48 25.6M   48 12.4M    0     0  28880      0  0:15:29  0:07:33  0:07:56 26251 48 25.6M   48 12.5M    0     0  28891      0  0:15:29  0:07:34  0:07:55 26925 49 25.6M   49 12.5M    0     0  28887      0  0:15:29  0:07:35  0:07:54 28183 49 25.6M   49 12.5M    0     0  28905      0  0:15:28  0:07:36  0:07:52 30272 49 25.6M   49 12.6M    0     0  28880      0  0:15:29  0:07:37  0:07:52 29556 49 25.6M   49 12.6M    0     0  28890      0  0:15:29  0:07:38  0:07:51 29783 49 25.6M   49 12.6M    0     0  28900      0  0:15:29  0:07:39  0:07:50 29699 49 25.6M   49 12.6M    0     0  28867      0  0:15:30  0:07:40  0:07:50 26986 49 25.6M   49 12.7M    0     0  28878      0  0:15:29  0:07:41  0:07:48 26404 49 25.6M   49 12.7M    0     0  28786      0  0:15:32  0:07:43  0:07:49 20970 49 25.6M   49 12.7M    0     0  28724      0  0:15:34  0:07:44  0:07:50 14897 49 25.6M   49 12.7M    0     0  28662      0  0:15:36  0:07:45  0:07:51  8891 49 25.6M   49 12.7M    0     0  28661      0  0:15:36  0:07:45  0:07:51  9762 49 25.6M   49 12.7M    0     0  28637      0  0:15:37  0:07:46  0:07:51  6506 49 25.6M   49 12.7M    0     0  28613      0  0:15:38  0:07:47  0:07:51 10859 49 25.6M   49 12.7M    0     0  28589      0  0:15:39  0:07:48  0:07:51 14628 49 25.6M   49 12.7M    0     0  28552      0  0:15:40  0:07:49  0:07:51 17534 50 25.6M   50 12.8M    0     0  28556      0  0:15:40  0:07:51  0:07:49 19065 50 25.6M   50 12.8M    0     0  28546      0  0:15:40  0:07:51  0:07:49 19952 50 25.6M   50 12.8M    0     0  28577      0  0:15:39  0:07:52  0:07:47 25318 50 25.6M   50 12.9M    0     0  28595      0  0:15:39  0:07:53  0:07:46 29078 50 25.6M   50 12.9M    0     0  28572      0  0:15:39  0:07:54  0:07:45 30497 50 25.6M   50 12.9M    0     0  28541      0  0:15:40  0:07:55  0:07:45 27131 50 25.6M   50 12.9M    0     0  28511      0  0:15:41  0:07:56  0:07:45 25327 50 25.6M   50 12.9M    0     0  28495      0  0:15:42  0:07:57  0:07:45 20433 50 25.6M   50 13.0M    0     0  28498      0  0:15:42  0:07:58  0:07:44 19458 50 25.6M   50 13.0M    0     0  28441      0  0:15:44  0:07:59  0:07:45 16212 50 25.6M   50 13.0M    0     0  28452      0  0:15:43  0:08:00  0:07:43 19907 51 25.6M   51 13.0M    0     0  28423      0  0:15:44  0:08:01  0:07:43 19879 51 25.6M   51 13.0M    0     0  28434      0  0:15:44  0:08:02  0:07:42 22674 51 25.6M   51 13.1M    0     0  28404      0  0:15:45  0:08:03  0:07:42 19469 51 25.6M   51 13.1M    0     0  28380      0  0:15:46  0:08:05  0:07:41 23210 51 25.6M   51 13.1M    0     0  28393      0  0:15:45  0:08:05  0:07:40 22719 51 25.6M   51 13.1M    0     0  28404      0  0:15:45  0:08:06  0:07:39 26570 51 25.6M   51 13.2M    0     0  28375      0  0:15:46  0:08:07  0:07:39 22719 51 25.6M   51 13.2M    0     0  28385      0  0:15:45  0:08:08  0:07:37 26548 51 25.6M   51 13.2M    0     0  28330      0  0:15:47  0:08:09  0:07:38 22671 51 25.6M   51 13.2M    0     0  28327      0  0:15:47  0:08:11  0:07:36 22179 51 25.6M   51 13.2M    0     0  28312      0  0:15:48  0:08:11  0:07:37 19489 51 25.6M   51 13.3M    0     0  28287      0  0:15:49  0:08:13  0:07:36 20575 51 25.6M   51 13.3M    0     0  28244      0  0:15:50  0:08:14  0:07:36 15329 52 25.6M   52 13.3M    0     0  28243      0  0:15:50  0:08:14  0:07:36 19680 52 25.6M   52 13.3M    0     0  28286      0  0:15:49  0:08:15  0:07:34 24063 52 25.6M   52 13.3M    0     0  28264      0  0:15:50  0:08:16  0:07:34 23400 52 25.6M   52 13.4M    0     0  28235      0  0:15:51  0:08:18  0:07:33 23113 52 25.6M   52 13.4M    0     0  28208      0  0:15:51  0:08:18  0:07:33 24438 52 25.6M   52 13.4M    0     0  28226      0  0:15:51  0:08:19  0:07:32 26554 52 25.6M   52 13.4M    0     0  28216      0  0:15:51  0:08:21  0:07:30 21647 52 25.6M   52 13.4M    0     0  28170      0  0:15:53  0:08:21  0:07:32 19073 52 25.6M   52 13.4M    0     0  28155      0  0:15:53  0:08:22  0:07:31 18932 52 25.6M   52 13.5M    0     0  28164      0  0:15:53  0:08:23  0:07:30 23583 52 25.6M   52 13.5M    0     0  28156      0  0:15:53  0:08:25  0:07:28 21549 52 25.6M   52 13.5M    0     0  28113      0  0:15:55  0:08:25  0:07:30 17202 53 25.6M   53 13.5M    0     0  28078      0  0:15:56  0:08:27  0:07:29 19099 53 25.6M   53 13.5M    0     0  28033      0  0:15:57  0:08:28  0:07:29 17255 53 25.6M   53 13.5M    0     0  27997      0  0:15:59  0:08:29  0:07:30 12270 53 25.6M   53 13.6M    0     0  27994      0  0:15:59  0:08:29  0:07:30 10509 53 25.6M   53 13.6M    0     0  27969      0  0:16:00  0:08:30  0:07:30 13271 53 25.6M   53 13.6M    0     0  27948      0  0:16:00  0:08:31  0:07:29 13970 53 25.6M   53 13.6M    0     0  27941      0  0:16:01  0:08:33  0:07:28 17758 53 25.6M   53 13.6M    0     0  27920      0  0:16:01  0:08:34  0:07:27 19964 53 25.6M   53 13.7M    0     0  27894      0  0:16:02  0:08:35  0:07:27 18371 53 25.6M   53 13.7M    0     0  27887      0  0:16:02  0:08:35  0:07:27 19535 53 25.6M   53 13.7M    0     0  27860      0  0:16:03  0:08:36  0:07:27 19062 53 25.6M   53 13.7M    0     0  27833      0  0:16:04  0:08:38  0:07:26 17847 53 25.6M   53 13.7M    0     0  27820      0  0:16:05  0:08:38  0:07:27 17113 53 25.6M   53 13.7M    0     0  27831      0  0:16:04  0:08:39  0:07:25 20973 53 25.6M   53 13.8M    0     0  27805      0  0:16:05  0:08:40  0:07:25 19450 54 25.6M   54 13.8M    0     0  27817      0  0:16:05  0:08:41  0:07:24 23301 54 25.6M   54 13.8M    0     0  27796      0  0:16:06  0:08:42  0:07:24 23250 54 25.6M   54 13.8M    0     0  27807      0  0:16:05  0:08:43  0:07:22 26441 54 25.6M   54 13.9M    0     0  27782      0  0:16:06  0:08:44  0:07:22 22723 54 25.6M   54 13.9M    0     0  27781      0  0:16:06  0:08:46  0:07:20 25376 54 25.6M   54 13.9M    0     0  27737      0  0:16:08  0:08:46  0:07:22 19477 54 25.6M   54 13.9M    0     0  27718      0  0:16:08  0:08:47  0:07:21 19551 54 25.6M   54 13.9M    0     0  27693      0  0:16:09  0:08:48  0:07:21 15975 54 25.6M   54 13.9M    0     0  27668      0  0:16:10  0:08:49  0:07:21 15971 54 25.6M   54 13.9M    0     0  27643      0  0:16:11  0:08:51  0:07:20 13107 54 25.6M   54 14.0M    0     0  27629      0  0:16:11  0:08:51  0:07:20 16354 54 25.6M   54 14.0M    0     0  27598      0  0:16:12  0:08:53  0:07:19 15585 54 25.6M   54 14.0M    0     0  27616      0  0:16:12  0:08:53  0:07:19 19531 55 25.6M   55 14.0M    0     0  27633      0  0:16:11  0:08:54  0:07:17 23799 55 25.6M   55 14.1M    0     0  27602      0  0:16:12  0:08:55  0:07:17 23178 55 25.6M   55 14.1M    0     0  27601      0  0:16:12  0:08:57  0:07:15 24777 55 25.6M   55 14.1M    0     0  27595      0  0:16:13  0:08:57  0:07:16 27261 55 25.6M   55 14.1M    0     0  27576      0  0:16:13  0:08:58  0:07:15 23263 55 25.6M   55 14.1M    0     0  27557      0  0:16:14  0:08:59  0:07:15 19516 55 25.6M   55 14.2M    0     0  27562      0  0:16:14  0:09:00  0:07:14 23258 55 25.6M   55 14.2M    0     0  27568      0  0:16:14  0:09:01  0:07:13 23809 55 25.6M   55 14.2M    0     0  27520      0  0:16:15  0:09:02  0:07:13 19489 55 25.6M   55 14.2M    0     0  27502      0  0:16:16  0:09:03  0:07:13 19551 55 25.6M   55 14.2M    0     0  27513      0  0:16:15  0:09:04  0:07:11 22814 55 25.6M   55 14.3M    0     0  27495      0  0:16:16  0:09:05  0:07:11 20119 55 25.6M   55 14.3M    0     0  27447      0  0:16:18  0:09:06  0:07:12 13716 56 25.6M   56 14.3M    0     0  27452      0  0:16:18  0:09:07  0:07:11 19952 56 25.6M   56 14.3M    0     0  27493      0  0:16:16  0:09:08  0:07:08 26511 56 25.6M   56 14.4M    0     0  27505      0  0:16:16  0:09:09  0:07:07 26602 56 25.6M   56 14.4M    0     0  27516      0  0:16:15  0:09:10  0:07:05 29801 56 25.6M   56 14.4M    0     0  27493      0  0:16:16  0:09:11  0:07:05 32469 56 25.6M   56 14.4M    0     0  27468      0  0:16:17  0:09:12  0:07:05 29274 56 25.6M   56 14.4M    0     0  27428      0  0:16:19  0:09:14  0:07:05 20913 56 25.6M   56 14.5M    0     0  27427      0  0:16:19  0:09:14  0:07:05 19106 56 25.6M   56 14.5M    0     0  27415      0  0:16:19  0:09:15  0:07:04 16315 56 25.6M   56 14.5M    0     0  27374      0  0:16:20  0:09:17  0:07:03 15204 56 25.6M   56 14.5M    0     0  27362      0  0:16:21  0:09:18  0:07:03 15937 56 25.6M   56 14.5M    0     0  27356      0  0:16:21  0:09:18  0:07:03 18446 56 25.6M   56 14.5M    0     0  27332      0  0:16:22  0:09:19  0:07:03 16606 57 25.6M   57 14.6M    0     0  27336      0  0:16:22  0:09:20  0:07:02 18922 57 25.6M   57 14.6M    0     0  27319      0  0:16:22  0:09:21  0:07:01 20813 57 25.6M   57 14.6M    0     0  27307      0  0:16:23  0:09:22  0:07:01 20778 57 25.6M   57 14.6M    0     0  27284      0  0:16:24  0:09:23  0:07:01 19320 57 25.6M   57 14.6M    0     0  27256      0  0:16:25  0:09:25  0:07:00 18995 57 25.6M   57 14.7M    0     0  27250      0  0:16:25  0:09:25  0:07:00 17141 57 25.6M   57 14.7M    0     0  27260      0  0:16:25  0:09:27  0:06:58 21156 57 25.6M   57 14.7M    0     0  27259      0  0:16:25  0:09:27  0:06:58 22127 57 25.6M   57 14.7M    0     0  27248      0  0:16:25  0:09:28  0:06:57 23173 57 25.6M   57 14.7M    0     0  27231      0  0:16:26  0:09:29  0:06:57 24241 57 25.6M   57 14.8M    0     0  27227      0  0:16:26  0:09:31  0:06:55 24805 57 25.6M   57 14.8M    0     0  27200      0  0:16:27  0:09:32  0:06:55 20222 58 25.6M   58 14.8M    0     0  27200      0  0:16:27  0:09:32  0:06:55 20273 58 25.6M   58 14.8M    0     0  27206      0  0:16:26  0:09:33  0:06:53 22496 58 25.6M   58 14.9M    0     0  27183      0  0:16:27  0:09:34  0:06:53 21996 58 25.6M   58 14.9M    0     0  27171      0  0:16:28  0:09:35  0:06:53 20501 58 25.6M   58 14.9M    0     0  27161      0  0:16:28  0:09:37  0:06:51 22701 58 25.6M   58 14.9M    0     0  27139      0  0:16:29  0:09:38  0:06:51 20742 58 25.6M   58 14.9M    0     0  27116      0  0:16:30  0:09:38  0:06:52 16680 58 25.6M   58 14.9M    0     0  27095      0  0:16:31  0:09:40  0:06:51 17876 58 25.6M   58 14.9M    0     0  27078      0  0:16:31  0:09:40  0:06:51 16344 58 25.6M   58 15.0M    0     0  27062      0  0:16:32  0:09:41  0:06:51 14454 58 25.6M   58 15.0M    0     0  27073      0  0:16:31  0:09:42  0:06:49 18479 58 25.6M   58 15.0M    0     0  27050      0  0:16:32  0:09:43  0:06:49 19462 58 25.6M   58 15.0M    0     0  27045      0  0:16:32  0:09:45  0:06:47 20862 59 25.6M   59 15.1M    0     0  27045      0  0:16:32  0:09:45  0:06:47 23141 59 25.6M   59 15.1M    0     0  27078      0  0:16:31  0:09:46  0:06:45 28975 59 25.6M   59 15.1M    0     0  27061      0  0:16:32  0:09:47  0:06:45 25750 59 25.6M   59 15.2M    0     0  27104      0  0:16:30  0:09:48  0:06:42 33525 59 25.6M   59 15.2M    0     0  27109      0  0:16:30  0:09:49  0:06:41 35113 59 25.6M   59 15.2M    0     0  27114      0  0:16:30  0:09:50  0:06:40 35028 59 25.6M   59 15.2M    0     0  27103      0  0:16:30  0:09:51  0:06:39 30080 59 25.6M   59 15.3M    0     0  27134      0  0:16:29  0:09:52  0:06:37 35610 59 25.6M   59 15.3M    0     0  27117      0  0:16:30  0:09:53  0:06:37 28665 60 25.6M   60 15.3M    0     0  27128      0  0:16:29  0:09:54  0:06:35 29420 60 25.6M   60 15.4M    0     0  27133      0  0:16:29  0:09:55  0:06:34 29385 60 25.6M   60 15.4M    0     0  27112      0  0:16:30  0:09:57  0:06:33 28102 60 25.6M   60 15.4M    0     0  27106      0  0:16:30  0:09:57  0:06:33 23676 60 25.6M   60 15.4M    0     0  27115      0  0:16:30  0:09:58  0:06:32 26853 60 25.6M   60 15.5M    0     0  27121      0  0:16:30  0:09:59  0:06:31 26214 60 25.6M   60 15.5M    0     0  27104      0  0:16:30  0:10:00  0:06:30 23511 60 25.6M   60 15.5M    0     0  27115      0  0:16:30  0:10:01  0:06:29 27461 60 25.6M   60 15.5M    0     0  27125      0  0:16:29  0:10:02  0:06:27 29408 60 25.6M   60 15.6M    0     0  27099      0  0:16:30  0:10:03  0:06:27 25220 61 25.6M   61 15.6M    0     0  27115      0  0:16:30  0:10:04  0:06:26 26452 61 25.6M   61 15.6M    0     0  27099      0  0:16:30  0:10:05  0:06:25 26484 61 25.6M   61 15.6M    0     0  27078      0  0:16:31  0:10:06  0:06:25 22683 61 25.6M   61 15.7M    0     0  27083      0  0:16:31  0:10:07  0:06:24 22153 61 25.6M   61 15.7M    0     0  27073      0  0:16:31  0:10:08  0:06:23 23843 61 25.6M   61 15.7M    0     0  27047      0  0:16:32  0:10:09  0:06:23 19054 61 25.6M   61 15.7M    0     0  27036      0  0:16:33  0:10:10  0:06:23 19485 61 25.6M   61 15.7M    0     0  27047      0  0:16:32  0:10:11  0:06:21 23225 61 25.6M   61 15.8M    0     0  27037      0  0:16:33  0:10:13  0:06:20 21770 61 25.6M   61 15.8M    0     0  27006      0  0:16:34  0:10:13  0:06:21 19058 61 25.6M   61 15.8M    0     0  27022      0  0:16:33  0:10:14  0:06:19 23848 61 25.6M   61 15.8M    0     0  27020      0  0:16:33  0:10:16  0:06:17 25157 62 25.6M   62 15.8M    0     0  27015      0  0:16:33  0:10:16  0:06:17 23094 62 25.6M   62 15.9M    0     0  26994      0  0:16:34  0:10:17  0:06:17 21268 62 25.6M   62 15.9M    0     0  27031      0  0:16:33  0:10:18  0:06:15 30228 62 25.6M   62 15.9M    0     0  27043      0  0:16:32  0:10:20  0:06:12 29325 62 25.6M   62 15.9M    0     0  27002      0  0:16:34  0:10:21  0:06:13 24861 62 25.6M   62 15.9M    0     0  26981      0  0:16:35  0:10:21  0:06:14 22859 62 25.6M   62 16.0M    0     0  26992      0  0:16:34  0:10:22  0:06:12 26689 62 25.6M   62 16.0M    0     0  26995      0  0:16:34  0:10:23  0:06:11 22545 62 25.6M   62 16.0M    0     0  26984      0  0:16:35  0:10:24  0:06:11 18741 62 25.6M   62 16.0M    0     0  26963      0  0:16:35  0:10:25  0:06:10 21595 62 25.6M   62 16.1M    0     0  26936      0  0:16:36  0:10:27  0:06:09 21671 62 25.6M   62 16.1M    0     0  26912      0  0:16:37  0:10:28  0:06:09 17896 62 25.6M   62 16.1M    0     0  26869      0  0:16:39  0:10:29  0:06:10 12256 62 25.6M   62 16.1M    0     0  26836      0  0:16:40  0:10:30  0:06:10  9303 63 25.6M   63 16.1M    0     0  26831      0  0:16:40  0:10:30  0:06:10 10039 63 25.6M   63 16.1M    0     0  26837      0  0:16:40  0:10:31  0:06:09 13724 63 25.6M   63 16.2M    0     0  26842      0  0:16:40  0:10:32  0:06:08 17448 63 25.6M   63 16.2M    0     0  26832      0  0:16:40  0:10:33  0:06:07 21643 63 25.6M   63 16.2M    0     0  26843      0  0:16:40  0:10:34  0:06:06 27693 63 25.6M   63 16.2M    0     0  26848      0  0:16:40  0:10:35  0:06:05 28964 63 25.6M   63 16.3M    0     0  26859      0  0:16:39  0:10:36  0:06:03 29663 63 25.6M   63 16.3M    0     0  26869      0  0:16:39  0:10:37  0:06:02 30397 63 25.6M   63 16.3M    0     0  26854      0  0:16:39  0:10:38  0:06:01 29705 63 25.6M   63 16.3M    0     0  26826      0  0:16:40  0:10:40  0:06:00 24786 64 25.6M   64 16.3M    0     0  26816      0  0:16:41  0:10:40  0:06:01 22769 64 25.6M   64 16.4M    0     0  26797      0  0:16:42  0:10:41  0:06:01 19102 64 25.6M   64 16.4M    0     0  26787      0  0:16:42  0:10:42  0:06:00 16348 64 25.6M   64 16.4M    0     0  26772      0  0:16:42  0:10:43  0:05:59 16318 64 25.6M   64 16.4M    0     0  26778      0  0:16:42  0:10:44  0:05:58 20433 64 25.6M   64 16.4M    0     0  26763      0  0:16:43  0:10:45  0:05:58 19895 64 25.6M   64 16.5M    0     0  26774      0  0:16:42  0:10:46  0:05:56 23730 64 25.6M   64 16.5M    0     0  26809      0  0:16:41  0:10:47  0:05:54 29669 64 25.6M   64 16.5M    0     0  26794      0  0:16:42  0:10:48  0:05:54 29663 64 25.6M   64 16.5M    0     0  26775      0  0:16:42  0:10:49  0:05:53 26415 64 25.6M   64 16.6M    0     0  26785      0  0:16:42  0:10:50  0:05:52 29675 65 25.6M   65 16.6M    0     0  26795      0  0:16:42  0:10:51  0:05:51 29526 65 25.6M   65 16.6M    0     0  26780      0  0:16:42  0:10:52  0:05:50 22992 65 25.6M   65 16.7M    0     0  26781      0  0:16:42  0:10:53  0:05:49 25071 65 25.6M   65 16.7M    0     0  26771      0  0:16:43  0:10:54  0:05:49 26235 65 25.6M   65 16.7M    0     0  26781      0  0:16:42  0:10:55  0:05:47 26230 65 25.6M   65 16.7M    0     0  26792      0  0:16:42  0:10:56  0:05:46 26362 65 25.6M   65 16.8M    0     0  26797      0  0:16:42  0:10:57  0:05:45 29026 65 25.6M   65 16.8M    0     0  26808      0  0:16:41  0:10:58  0:05:43 30466 65 25.6M   65 16.8M    0     0  26788      0  0:16:42  0:10:59  0:05:43 28981 65 25.6M   65 16.8M    0     0  26803      0  0:16:41  0:11:00  0:05:41 29699 66 25.6M   66 16.9M    0     0  26808      0  0:16:41  0:11:01  0:05:40 29003 66 25.6M   66 16.9M    0     0  26790      0  0:16:42  0:11:02  0:05:40 25781 66 25.6M   66 16.9M    0     0  26805      0  0:16:41  0:11:03  0:05:38 26415 66 25.6M   66 16.9M    0     0  26815      0  0:16:41  0:11:04  0:05:37 30453 66 25.6M   66 17.0M    0     0  26821      0  0:16:41  0:11:05  0:05:36 29187 66 25.6M   66 17.0M    0     0  26827      0  0:16:40  0:11:06  0:05:34 29216 66 25.6M   66 17.0M    0     0  26817      0  0:16:41  0:11:07  0:05:34 30598 66 25.6M   66 17.1M    0     0  26847      0  0:16:40  0:11:08  0:05:32 32341 66 25.6M   66 17.1M    0     0  26833      0  0:16:40  0:11:09  0:05:31 29204 66 25.6M   66 17.1M    0     0  26800      0  0:16:41  0:11:11  0:05:30 24151 67 25.6M   67 17.1M    0     0  26800      0  0:16:41  0:11:11  0:05:30 23183 67 25.6M   67 17.1M    0     0  26781      0  0:16:42  0:11:12  0:05:30 22110 67 25.6M   67 17.2M    0     0  26772      0  0:16:42  0:11:13  0:05:29 16630 67 25.6M   67 17.2M    0     0  26777      0  0:16:42  0:11:14  0:05:28 19446 67 25.6M   67 17.2M    0     0  26763      0  0:16:43  0:11:15  0:05:28 21421 67 25.6M   67 17.2M    0     0  26750      0  0:16:43  0:11:16  0:05:27 19923 67 25.6M   67 17.2M    0     0  26727      0  0:16:44  0:11:17  0:05:27 19500 67 25.6M   67 17.2M    0     0  26717      0  0:16:45  0:11:18  0:05:27 19446 67 25.6M   67 17.3M    0     0  26727      0  0:16:44  0:11:19  0:05:25 19895 67 25.6M   67 17.3M    0     0  26714      0  0:16:45  0:11:20  0:05:25 19935 67 25.6M   67 17.3M    0     0  26696      0  0:16:45  0:11:21  0:05:24 19489 67 25.6M   67 17.3M    0     0  26706      0  0:16:45  0:11:22  0:05:23 23809 67 25.6M   67 17.4M    0     0  26693      0  0:16:45  0:11:23  0:05:22 23277 68 25.6M   68 17.4M    0     0  26684      0  0:16:46  0:11:25  0:05:21 21254 68 25.6M   68 17.4M    0     0  26685      0  0:16:46  0:11:25  0:05:21 22737 68 25.6M   68 17.4M    0     0  26694      0  0:16:45  0:11:26  0:05:19 26473 68 25.6M   68 17.5M    0     0  26700      0  0:16:45  0:11:27  0:05:18 25842 68 25.6M   68 17.5M    0     0  26705      0  0:16:45  0:11:28  0:05:17 28313 68 25.6M   68 17.5M    0     0  26664      0  0:16:47  0:11:30  0:05:17 24129 68 25.6M   68 17.5M    0     0  26670      0  0:16:46  0:11:31  0:05:15 24749 68 25.6M   68 17.5M    0     0  26665      0  0:16:47  0:11:31  0:05:16 22697 68 25.6M   68 17.6M    0     0  26694      0  0:16:45  0:11:32  0:05:13 25939 68 25.6M   68 17.6M    0     0  26667      0  0:16:46  0:11:34  0:05:12 21745 69 25.6M   69 17.6M    0     0  26667      0  0:16:46  0:11:34  0:05:12 27196 69 25.6M   69 17.6M    0     0  26654      0  0:16:47  0:11:35  0:05:12 24324 69 25.6M   69 17.7M    0     0  26664      0  0:16:47  0:11:36  0:05:11 26511 69 25.6M   69 17.7M    0     0  26646      0  0:16:47  0:11:37  0:05:10 19915 69 25.6M   69 17.7M    0     0  26657      0  0:16:47  0:11:38  0:05:09 25041 69 25.6M   69 17.7M    0     0  26634      0  0:16:48  0:11:40  0:05:08 22179 69 25.6M   69 17.8M    0     0  26649      0  0:16:47  0:11:40  0:05:07 25954 69 25.6M   69 17.8M    0     0  26659      0  0:16:47  0:11:41  0:05:06 25898 69 25.6M   69 17.8M    0     0  26668      0  0:16:46  0:11:42  0:05:04 29735 69 25.6M   69 17.9M    0     0  26668      0  0:16:46  0:11:44  0:05:02 28253 70 25.6M   70 17.9M    0     0  26687      0  0:16:46  0:11:44  0:05:02 34485 70 25.6M   70 17.9M    0     0  26692      0  0:16:45  0:11:45  0:05:00 32820 70 25.6M   70 17.9M    0     0  26679      0  0:16:46  0:11:46  0:05:00 29526 70 25.6M   70 17.9M    0     0  26666      0  0:16:46  0:11:47  0:04:59 26383 70 25.6M   70 18.0M    0     0  26716      0  0:16:45  0:11:48  0:04:57 33587 70 25.6M   70 18.0M    0     0  26680      0  0:16:46  0:11:50  0:04:56 25828 70 25.6M   70 18.0M    0     0  26667      0  0:16:46  0:11:50  0:04:56 23015 70 25.6M   70 18.1M    0     0  26686      0  0:16:46  0:11:52  0:04:54 27577 70 25.6M   70 18.1M    0     0  26686      0  0:16:46  0:11:52  0:04:54 29497 71 25.6M   71 18.1M    0     0  26718      0  0:16:45  0:11:53  0:04:52 27075 71 25.6M   71 18.2M    0     0  26746      0  0:16:43  0:11:54  0:04:49 37466 71 25.6M   71 18.2M    0     0  26750      0  0:16:43  0:11:55  0:04:48 38235 71 25.6M   71 18.2M    0     0  26766      0  0:16:43  0:11:56  0:04:47 39264 71 25.6M   71 18.3M    0     0  26772      0  0:16:42  0:11:57  0:04:45 39009 71 25.6M   71 18.3M    0     0  26782      0  0:16:42  0:11:58  0:04:44 35758 71 25.6M   71 18.3M    0     0  26787      0  0:16:42  0:11:59  0:04:43 32520 71 25.6M   71 18.4M    0     0  26773      0  0:16:42  0:12:00  0:04:42 30247 72 25.6M   72 18.4M    0     0  26803      0  0:16:41  0:12:01  0:04:40 31900 72 25.6M   72 18.4M    0     0  26808      0  0:16:41  0:12:02  0:04:39 31696 72 25.6M   72 18.4M    0     0  26759      0  0:16:43  0:12:04  0:04:39 23796 72 25.6M   72 18.4M    0     0  26755      0  0:16:43  0:12:05  0:04:38 22343 72 25.6M   72 18.5M    0     0  26751      0  0:16:43  0:12:05  0:04:38 23434 72 25.6M   72 18.5M    0     0  26756      0  0:16:43  0:12:06  0:04:37 19899 72 25.6M   72 18.5M    0     0  26783      0  0:16:42  0:12:07  0:04:35 23206 72 25.6M   72 18.5M    0     0  26753      0  0:16:43  0:12:08  0:04:35 25778 72 25.6M   72 18.6M    0     0  26783      0  0:16:42  0:12:09  0:04:33 31082 72 25.6M   72 18.6M    0     0  26813      0  0:16:41  0:12:10  0:04:31 35744 73 25.6M   73 18.7M    0     0  26862      0  0:16:39  0:12:11  0:04:28 42201 73 25.6M   73 18.7M    0     0  26896      0  0:16:38  0:12:12  0:04:26 43861 73 25.6M   73 18.8M    0     0  26928      0  0:16:37  0:12:13  0:04:24 52334 73 25.6M   73 18.8M    0     0  26932      0  0:16:37  0:12:14  0:04:23 48292 73 25.6M   73 18.9M    0     0  26941      0  0:16:36  0:12:15  0:04:21 45610 73 25.6M   73 18.9M    0     0  26928      0  0:16:37  0:12:16  0:04:21 36727 74 25.6M   74 18.9M    0     0  26937      0  0:16:36  0:12:17  0:04:19 32899 74 25.6M   74 18.9M    0     0  26944      0  0:16:36  0:12:18  0:04:18 29402 74 25.6M   74 19.0M    0     0  26975      0  0:16:35  0:12:19  0:04:16 33443 74 25.6M   74 19.0M    0     0  27002      0  0:16:34  0:12:20  0:04:14 35894 74 25.6M   74 19.1M    0     0  27033      0  0:16:33  0:12:21  0:04:12 42428 74 25.6M   74 19.1M    0     0  27037      0  0:16:33  0:12:22  0:04:11 41478 74 25.6M   74 19.1M    0     0  27046      0  0:16:32  0:12:23  0:04:09 41853 75 25.6M   75 19.2M    0     0  27069      0  0:16:31  0:12:25  0:04:06 40126 75 25.6M   75 19.2M    0     0  27061      0  0:16:32  0:12:25  0:04:07 35787 75 25.6M   75 19.2M    0     0  27083      0  0:16:31  0:12:27  0:04:04 34133 75 25.6M   75 19.2M    0     0  27048      0  0:16:32  0:12:28  0:04:04 28538 75 25.6M   75 19.3M    0     0  27045      0  0:16:32  0:12:28  0:04:04 26842 75 25.6M   75 19.3M    0     0  27046      0  0:16:32  0:12:29  0:04:03 23588 75 25.6M   75 19.3M    0     0  27059      0  0:16:32  0:12:30  0:04:02 26765 75 25.6M   75 19.4M    0     0  27107      0  0:16:30  0:12:31  0:03:59 30861 76 25.6M   76 19.4M    0     0  27111      0  0:16:30  0:12:32  0:03:58 36855 76 25.6M   76 19.4M    0     0  27124      0  0:16:29  0:12:33  0:03:56 38839 76 25.6M   76 19.5M    0     0  27176      0  0:16:28  0:12:34  0:03:54 47119 76 25.6M   76 19.5M    0     0  27163      0  0:16:28  0:12:35  0:03:53 42821 76 25.6M   76 19.6M    0     0  27170      0  0:16:28  0:12:36  0:03:52 36870 76 25.6M   76 19.6M    0     0  27200      0  0:16:27  0:12:37  0:03:50 41054 76 25.6M   76 19.6M    0     0  27198      0  0:16:27  0:12:38  0:03:49 37991 77 25.6M   77 19.7M    0     0  27207      0  0:16:26  0:12:39  0:03:47 31702 77 25.6M   77 19.7M    0     0  27211      0  0:16:26  0:12:41  0:03:45 34023 77 25.6M   77 19.7M    0     0  27228      0  0:16:26  0:12:41  0:03:45 35936 77 25.6M   77 19.8M    0     0  27254      0  0:16:25  0:12:42  0:03:43 35393 77 25.6M   77 19.8M    0     0  27263      0  0:16:24  0:12:43  0:03:41 37398 77 25.6M   77 19.8M    0     0  27271      0  0:16:24  0:12:44  0:03:40 37383 77 25.6M   77 19.9M    0     0  27279      0  0:16:24  0:12:45  0:03:39 38321 77 25.6M   77 19.9M    0     0  27304      0  0:16:23  0:12:46  0:03:37 38824 78 25.6M   78 19.9M    0     0  27304      0  0:16:23  0:12:48  0:03:35 34638 78 25.6M   78 20.0M    0     0  27321      0  0:16:22  0:12:48  0:03:34 36269 78 25.6M   78 20.0M    0     0  27321      0  0:16:22  0:12:49  0:03:33 34618 78 25.6M   78 20.0M    0     0  27312      0  0:16:23  0:12:50  0:03:33 32226 78 25.6M   78 20.1M    0     0  27341      0  0:16:22  0:12:51  0:03:31 32979 78 25.6M   78 20.1M    0     0  27320      0  0:16:22  0:12:52  0:03:30 29711 78 25.6M   78 20.1M    0     0  27332      0  0:16:22  0:12:53  0:03:29 29003 78 25.6M   78 20.1M    0     0  27315      0  0:16:23  0:12:54  0:03:29 26457 78 25.6M   78 20.2M    0     0  27306      0  0:16:23  0:12:55  0:03:28 26447 79 25.6M   79 20.2M    0     0  27335      0  0:16:22  0:12:56  0:03:26 26452 79 25.6M   79 20.3M    0     0  27381      0  0:16:20  0:12:57  0:03:23 37121 79 25.6M   79 20.3M    0     0  27384      0  0:16:20  0:12:58  0:03:22 35358 79 25.6M   79 20.3M    0     0  27388      0  0:16:20  0:13:00  0:03:20 38543 79 25.6M   79 20.3M    0     0  27380      0  0:16:20  0:13:00  0:03:20 38611 79 25.6M   79 20.4M    0     0  27388      0  0:16:20  0:13:01  0:03:19 35414 79 25.6M   79 20.4M    0     0  27396      0  0:16:20  0:13:02  0:03:18 29711 79 25.6M   79 20.4M    0     0  27404      0  0:16:19  0:13:03  0:03:16 30478 80 25.6M   80 20.4M    0     0  27391      0  0:16:20  0:13:04  0:03:16 27816 80 25.6M   80 20.5M    0     0  27395      0  0:16:20  0:13:05  0:03:15 29705 80 25.6M   80 20.5M    0     0  27402      0  0:16:19  0:13:06  0:03:13 29699 80 25.6M   80 20.5M    0     0  27385      0  0:16:20  0:13:07  0:03:13 25786 80 25.6M   80 20.5M    0     0  27377      0  0:16:20  0:13:08  0:03:12 23103 80 25.6M   80 20.6M    0     0  27380      0  0:16:20  0:13:09  0:03:11 25705 80 25.6M   80 20.6M    0     0  27368      0  0:16:21  0:13:10  0:03:11 23202 80 25.6M   80 20.6M    0     0  27351      0  0:16:21  0:13:11  0:03:10 19419 80 25.6M   80 20.6M    0     0  27349      0  0:16:21  0:13:13  0:03:08 21924 80 25.6M   80 20.7M    0     0  27345      0  0:16:21  0:13:13  0:03:08 22443 80 25.6M   80 20.7M    0     0  27353      0  0:16:21  0:13:14  0:03:07 22992 81 25.6M   81 20.7M    0     0  27357      0  0:16:21  0:13:15  0:03:06 25550 81 25.6M   81 20.7M    0     0  27348      0  0:16:21  0:13:16  0:03:05 26804 81 25.6M   81 20.8M    0     0  27373      0  0:16:20  0:13:17  0:03:03 31386 81 25.6M   81 20.8M    0     0  27396      0  0:16:20  0:13:18  0:03:02 35428 81 25.6M   81 20.8M    0     0  27380      0  0:16:20  0:13:20  0:03:00 31604 81 25.6M   81 20.9M    0     0  27396      0  0:16:20  0:13:20  0:03:00 33886 81 25.6M   81 20.9M    0     0  27402      0  0:16:19  0:13:21  0:02:58 36073 81 25.6M   81 20.9M    0     0  27386      0  0:16:20  0:13:22  0:02:58 29444 82 25.6M   82 20.9M    0     0  27394      0  0:16:20  0:13:23  0:02:57 26952 82 25.6M   82 21.0M    0     0  27400      0  0:16:20  0:13:24  0:02:56 30758 82 25.6M   82 21.0M    0     0  27384      0  0:16:20  0:13:25  0:02:55 25455 82 25.6M   82 21.0M    0     0  27392      0  0:16:20  0:13:26  0:02:54 25720 82 25.6M   82 21.1M    0     0  27402      0  0:16:19  0:13:27  0:02:52 30074 82 25.6M   82 21.1M    0     0  27427      0  0:16:19  0:13:28  0:02:51 32879 82 25.6M   82 21.2M    0     0  27455      0  0:16:18  0:13:29  0:02:49 36372 82 25.6M   82 21.2M    0     0  27479      0  0:16:17  0:13:30  0:02:47 42915 83 25.6M   83 21.2M    0     0  27486      0  0:16:16  0:13:31  0:02:45 42829 83 25.6M   83 21.2M    0     0  27474      0  0:16:17  0:13:32  0:02:45 38924 83 25.6M   83 21.3M    0     0  27501      0  0:16:16  0:13:33  0:02:43 39535 83 25.6M   83 21.3M    0     0  27485      0  0:16:16  0:13:34  0:02:42 32328 83 25.6M   83 21.3M    0     0  27493      0  0:16:16  0:13:35  0:02:41 29807 83 25.6M   83 21.4M    0     0  27540      0  0:16:15  0:13:36  0:02:39 36386 83 25.6M   83 21.4M    0     0  27568      0  0:16:14  0:13:37  0:02:37 42993 84 25.6M   84 21.5M    0     0  27574      0  0:16:13  0:13:38  0:02:35 39416 84 25.6M   84 21.5M    0     0  27558      0  0:16:14  0:13:39  0:02:35 39511 84 25.6M   84 21.5M    0     0  27558      0  0:16:14  0:13:41  0:02:33 37751 84 25.6M   84 21.5M    0     0  27553      0  0:16:14  0:13:41  0:02:33 29699 84 25.6M   84 21.6M    0     0  27534      0  0:16:15  0:13:42  0:02:33 22174 84 25.6M   84 21.6M    0     0  27522      0  0:16:15  0:13:44  0:02:31 20039 84 25.6M   84 21.6M    0     0  27509      0  0:16:16  0:13:44  0:02:32 19535 84 25.6M   84 21.6M    0     0  27497      0  0:16:16  0:13:45  0:02:31 17116 84 25.6M   84 21.6M    0     0  27505      0  0:16:16  0:13:46  0:02:30 19551 84 25.6M   84 21.7M    0     0  27532      0  0:16:15  0:13:47  0:02:28 27170 85 25.6M   85 21.7M    0     0  27574      0  0:16:13  0:13:48  0:02:25 37560 85 25.6M   85 21.8M    0     0  27578      0  0:16:13  0:13:49  0:02:24 38633 85 25.6M   85 21.8M    0     0  27570      0  0:16:13  0:13:50  0:02:23 39742 85 25.6M   85 21.8M    0     0  27535      0  0:16:15  0:13:51  0:02:24 32559 85 25.6M   85 21.8M    0     0  27539      0  0:16:15  0:13:52  0:02:23 28665 85 25.6M   85 21.9M    0     0  27534      0  0:16:15  0:13:54  0:02:21 21341 85 25.6M   85 21.9M    0     0  27534      0  0:16:15  0:13:54  0:02:21 20107 85 25.6M   85 21.9M    0     0  27518      0  0:16:15  0:13:55  0:02:20 19043 85 25.6M   85 21.9M    0     0  27529      0  0:16:15  0:13:56  0:02:19 26463 85 25.6M   85 21.9M    0     0  27520      0  0:16:15  0:13:58  0:02:17 24660 85 25.6M   85 22.0M    0     0  27516      0  0:16:15  0:13:58  0:02:17 24334 86 25.6M   86 22.0M    0     0  27508      0  0:16:16  0:13:59  0:02:17 23202 86 25.6M   86 22.0M    0     0  27531      0  0:16:15  0:14:00  0:02:15 29795 86 25.6M   86 22.1M    0     0  27560      0  0:16:14  0:14:01  0:02:13 32853 86 25.6M   86 22.1M    0     0  27583      0  0:16:13  0:14:02  0:02:11 38916 86 25.6M   86 22.2M    0     0  27590      0  0:16:13  0:14:03  0:02:10 40272 86 25.6M   86 22.2M    0     0  27578      0  0:16:13  0:14:04  0:02:09 39321 86 25.6M   86 22.2M    0     0  27581      0  0:16:13  0:14:05  0:02:08 36044 86 25.6M   86 22.2M    0     0  27569      0  0:16:13  0:14:06  0:02:07 29003 87 25.6M   87 22.3M    0     0  27597      0  0:16:13  0:14:07  0:02:06 29940 87 25.6M   87 22.3M    0     0  27621      0  0:16:12  0:14:08  0:02:04 32735 87 25.6M   87 22.3M    0     0  27624      0  0:16:12  0:14:09  0:02:03 35049 87 25.6M   87 22.4M    0     0  27654      0  0:16:11  0:14:10  0:02:01 40132 87 25.6M   87 22.4M    0     0  27638      0  0:16:11  0:14:11  0:02:00 39180 87 25.6M   87 22.4M    0     0  27664      0  0:16:10  0:14:12  0:01:58 38878 87 25.6M   87 22.5M    0     0  27650      0  0:16:11  0:14:13  0:01:58 32630 87 25.6M   87 22.5M    0     0  27634      0  0:16:11  0:14:14  0:01:57 29432 88 25.6M   88 22.5M    0     0  27665      0  0:16:10  0:14:15  0:01:55 29556 88 25.6M   88 22.6M    0     0  27667      0  0:16:10  0:14:16  0:01:54 32689 88 25.6M   88 22.6M    0     0  27670      0  0:16:10  0:14:17  0:01:53 28800 88 25.6M   88 22.6M    0     0  27658      0  0:16:10  0:14:18  0:01:52 29061 88 25.6M   88 22.6M    0     0  27669      0  0:16:10  0:14:19  0:01:51 33830 88 25.6M   88 22.7M    0     0  27672      0  0:16:10  0:14:20  0:01:50 28941 88 25.6M   88 22.7M    0     0  27698      0  0:16:09  0:14:21  0:01:48 33072 89 25.6M   89 22.7M    0     0  27681      0  0:16:10  0:14:23  0:01:47 29225 89 25.6M   89 22.7M    0     0  27657      0  0:16:10  0:14:24  0:01:46 27428 89 25.6M   89 22.8M    0     0  27658      0  0:16:10  0:14:24  0:01:46 25766 89 25.6M   89 22.8M    0     0  27599      0  0:16:12  0:14:26  0:01:46 16789 89 25.6M   89 22.8M    0     0  27567      0  0:16:14  0:14:27  0:01:47  8356 89 25.6M   89 22.8M    0     0  27535      0  0:16:15  0:14:28  0:01:47  3180 89 25.6M   89 22.8M    0     0  27503      0  0:16:16  0:14:29  0:01:47  3026 89 25.6M   89 22.8M    0     0  27493      0  0:16:16  0:14:30  0:01:46  2839 89 25.6M   89 22.8M    0     0  27486      0  0:16:16  0:14:30  0:01:46  3931 89 25.6M   89 22.8M    0     0  27507      0  0:16:16  0:14:31  0:01:45 15384 89 25.6M   89 22.8M    0     0  27500      0  0:16:16  0:14:32  0:01:44 20000 89 25.6M   89 22.9M    0     0  27488      0  0:16:16  0:14:33  0:01:43 24224 89 25.6M   89 22.9M    0     0  27492      0  0:16:16  0:14:34  0:01:42 27196 89 25.6M   89 22.9M    0     0  27488      0  0:16:16  0:14:36  0:01:40 27879 89 25.6M   89 22.9M    0     0  27469      0  0:16:17  0:14:36  0:01:41 20522 89 25.6M   89 23.0M    0     0  27484      0  0:16:17  0:14:38  0:01:39 24824 89 25.6M   89 23.0M    0     0  27480      0  0:16:17  0:14:38  0:01:39 25985 90 25.6M   90 23.0M    0     0  27487      0  0:16:16  0:14:39  0:01:37 26543 90 25.6M   90 23.0M    0     0  27493      0  0:16:16  0:14:40  0:01:36 28524 90 25.6M   90 23.1M    0     0  27497      0  0:16:16  0:14:41  0:01:35 32182 90 25.6M   90 23.1M    0     0  27522      0  0:16:15  0:14:42  0:01:33 34616 90 25.6M   90 23.2M    0     0  27525      0  0:16:15  0:14:43  0:01:32 35358 90 25.6M   90 23.2M    0     0  27517      0  0:16:15  0:14:44  0:01:31 32912 90 25.6M   90 23.2M    0     0  27539      0  0:16:15  0:14:45  0:01:30 35338 90 25.6M   90 23.2M    0     0  27545      0  0:16:14  0:14:46  0:01:28 36175 91 25.6M   91 23.3M    0     0  27534      0  0:16:15  0:14:47  0:01:28 29597 91 25.6M   91 23.3M    0     0  27539      0  0:16:15  0:14:48  0:01:27 30080 91 25.6M   91 23.3M    0     0  27542      0  0:16:14  0:14:49  0:01:25 31863 91 25.6M   91 23.4M    0     0  27545      0  0:16:14  0:14:50  0:01:24 28727 91 25.6M   91 23.4M    0     0  27556      0  0:16:14  0:14:51  0:01:23 29432 91 25.6M   91 23.4M    0     0  27537      0  0:16:15  0:14:53  0:01:22 28129 91 25.6M   91 23.4M    0     0  27544      0  0:16:14  0:14:53  0:01:21 28444 91 25.6M   91 23.4M    0     0  27529      0  0:16:15  0:14:55  0:01:20 25318 91 25.6M   91 23.5M    0     0  27509      0  0:16:16  0:14:56  0:01:20 21497 91 25.6M   91 23.5M    0     0  27486      0  0:16:16  0:14:57  0:01:19 15583 91 25.6M   91 23.5M    0     0  27482      0  0:16:17  0:14:57  0:01:20 17163 92 25.6M   92 23.5M    0     0  27489      0  0:16:16  0:14:58  0:01:18 17105 92 25.6M   92 23.6M    0     0  27528      0  0:16:15  0:14:59  0:01:16 27295 92 25.6M   92 23.6M    0     0  27555      0  0:16:14  0:15:00  0:01:14 36842 92 25.6M   92 23.7M    0     0  27574      0  0:16:13  0:15:01  0:01:12 43961 92 25.6M   92 23.7M    0     0  27585      0  0:16:13  0:15:02  0:01:11 46133 92 25.6M   92 23.7M    0     0  27570      0  0:16:13  0:15:03  0:01:10 42001 92 25.6M   92 23.7M    0     0  27577      0  0:16:13  0:15:04  0:01:09 36438 92 25.6M   92 23.8M    0     0  27562      0  0:16:14  0:15:05  0:01:09 28654 93 25.6M   93 23.8M    0     0  27568      0  0:16:14  0:15:06  0:01:08 26516 93 25.6M   93 23.8M    0     0  27575      0  0:16:13  0:15:07  0:01:06 25857 93 25.6M   93 23.8M    0     0  27564      0  0:16:14  0:15:08  0:01:06 26377 93 25.6M   93 23.9M    0     0  27553      0  0:16:14  0:15:09  0:01:05 23155 93 25.6M   93 23.9M    0     0  27556      0  0:16:14  0:15:10  0:01:04 26457 93 25.6M   93 23.9M    0     0  27545      0  0:16:14  0:15:11  0:01:03 23183 93 25.6M   93 23.9M    0     0  27548      0  0:16:14  0:15:12  0:01:02 22683 93 25.6M   93 23.9M    0     0  27533      0  0:16:15  0:15:13  0:01:02 22213 93 25.6M   93 24.0M    0     0  27526      0  0:16:15  0:15:14  0:01:01 22737 93 25.6M   93 24.0M    0     0  27533      0  0:16:15  0:15:15  0:01:00 23282 93 25.6M   93 24.0M    0     0  27511      0  0:16:16  0:15:17  0:00:59 21680 94 25.6M   94 24.0M    0     0  27507      0  0:16:16  0:15:17  0:00:59 19907 94 25.6M   94 24.1M    0     0  27507      0  0:16:16  0:15:19  0:00:57 22719 94 25.6M   94 24.1M    0     0  27503      0  0:16:16  0:15:19  0:00:57 23211 94 25.6M   94 24.1M    0     0  27516      0  0:16:15  0:15:21  0:00:54 24711 94 25.6M   94 24.1M    0     0  27512      0  0:16:16  0:15:21  0:00:55 27828 94 25.6M   94 24.2M    0     0  27502      0  0:16:16  0:15:22  0:00:54 26543 94 25.6M   94 24.2M    0     0  27501      0  0:16:16  0:15:23  0:00:53 26463 94 25.6M   94 24.2M    0     0  27474      0  0:16:17  0:15:24  0:00:53 22226 94 25.6M   94 24.2M    0     0  27484      0  0:16:17  0:15:25  0:00:52 21032 94 25.6M   94 24.2M    0     0  27487      0  0:16:16  0:15:26  0:00:50 22773 95 25.6M   95 24.3M    0     0  27511      0  0:16:16  0:15:27  0:00:49 29164 95 25.6M   95 24.4M    0     0  27551      0  0:16:14  0:15:28  0:00:46 37045 95 25.6M   95 24.4M    0     0  27568      0  0:16:14  0:15:30  0:00:44 44669 95 25.6M   95 24.4M    0     0  27564      0  0:16:14  0:15:30  0:00:44 42487 95 25.6M   95 24.4M    0     0  27571      0  0:16:13  0:15:31  0:00:42 43529 95 25.6M   95 24.5M    0     0  27570      0  0:16:13  0:15:32  0:00:41 38325 95 25.6M   95 24.5M    0     0  27563      0  0:16:14  0:15:33  0:00:41 29669 95 25.6M   95 24.5M    0     0  27565      0  0:16:14  0:15:34  0:00:40 26980 96 25.6M   96 24.6M    0     0  27576      0  0:16:13  0:15:35  0:00:38 29699 96 25.6M   96 24.6M    0     0  27581      0  0:16:13  0:15:36  0:00:37 29467 96 25.6M   96 24.6M    0     0  27567      0  0:16:14  0:15:37  0:00:37 26864 96 25.6M   96 24.7M    0     0  27590      0  0:16:13  0:15:38  0:00:35 32741 96 25.6M   96 24.7M    0     0  27597      0  0:16:13  0:15:39  0:00:34 33573 96 25.6M   96 24.7M    0     0  27582      0  0:16:13  0:15:40  0:00:33 28755 96 25.6M   96 24.7M    0     0  27571      0  0:16:13  0:15:41  0:00:32 25755 96 25.6M   96 24.7M    0     0  27578      0  0:16:13  0:15:42  0:00:31 29651 96 25.6M   96 24.8M    0     0  27584      0  0:16:13  0:15:43  0:00:30 26383 97 25.6M   97 24.8M    0     0  27573      0  0:16:13  0:15:44  0:00:29 23108 97 25.6M   97 24.8M    0     0  27572      0  0:16:13  0:15:45  0:00:28 25745 97 25.6M   97 24.8M    0     0  27542      0  0:16:14  0:15:47  0:00:27 22755 97 25.6M   97 24.8M    0     0  27535      0  0:16:15  0:15:47  0:00:28 19539 97 25.6M   97 24.9M    0     0  27541      0  0:16:14  0:15:48  0:00:26 19535 97 25.6M   97 24.9M    0     0  27544      0  0:16:14  0:15:49  0:00:25 22226 97 25.6M   97 24.9M    0     0  27558      0  0:16:14  0:15:51  0:00:23 24904 97 25.6M   97 25.0M    0     0  27557      0  0:16:14  0:15:51  0:00:23 30986 97 25.6M   97 25.0M    0     0  27540      0  0:16:15  0:15:53  0:00:22 28395 97 25.6M   97 25.0M    0     0  27536      0  0:16:15  0:15:53  0:00:22 26473 97 25.6M   97 25.0M    0     0  27539      0  0:16:15  0:15:54  0:00:21 26554 98 25.6M   98 25.1M    0     0  27545      0  0:16:14  0:15:55  0:00:19 24970 98 25.6M   98 25.1M    0     0  27567      0  0:16:14  0:15:56  0:00:18 29491 98 25.6M   98 25.2M    0     0  27587      0  0:16:13  0:15:57  0:00:16 36893 98 25.6M   98 25.2M    0     0  27580      0  0:16:13  0:15:58  0:00:15 36008 98 25.6M   98 25.2M    0     0  27603      0  0:16:12  0:15:59  0:00:13 40140 98 25.6M   98 25.3M    0     0  27623      0  0:16:12  0:16:00  0:00:12 42445 98 25.6M   98 25.3M    0     0  27629      0  0:16:11  0:16:01  0:00:10 39511 99 25.6M   99 25.3M    0     0  27636      0  0:16:11  0:16:02  0:00:09 37236 99 25.6M   99 25.4M    0     0  27639      0  0:16:11  0:16:03  0:00:08 38694 99 25.6M   99 25.4M    0     0  27628      0  0:16:11  0:16:04  0:00:07 32302 99 25.6M   99 25.4M    0     0  27647      0  0:16:11  0:16:05  0:00:06 32296 99 25.6M   99 25.4M    0     0  27657      0  0:16:10  0:16:06  0:00:04 33072 99 25.6M   99 25.5M    0     0  27662      0  0:16:10  0:16:07  0:00:03 32696 99 25.6M   99 25.5M    0     0  27683      0  0:16:09  0:16:08  0:00:01 36225100 25.6M  100 25.6M    0     0  27704      0  0:16:09  0:16:09 --:--:-- 44359
+  -> Found dropbox.png
+  -> Found dropbox.desktop
+  -> Found terms.txt
+  -> Found dropbox.service
+  -> Found dropbox@.service
+==> Validating source files with sha256sums...
+    dropbox-lnx.x86_64-2.10.2.tar.gz ... Passed
+    dropbox.png ... Passed
+    dropbox.desktop ... Passed
+    terms.txt ... Passed
+    dropbox.service ... Passed
+    dropbox@.service ... Passed
+==> Extracting sources...
+  -> Extracting dropbox-lnx.x86_64-2.10.2.tar.gz with bsdtar
+==> Entering fakeroot environment...
+==> Starting package()...
+==> Tidying install...
+  -> Purging unwanted files...
+  -> Removing libtool files...
+  -> Removing static library files...
+  -> Compressing man and info pages...
+==> Creating package "dropbox"...
+  -> Generating .PKGINFO file...
+  -> Generating .MTREE file...
+  -> Compressing package...
+==> Leaving fakeroot environment.
+==> Finished making: dropbox 2.10.2-1 (Sun 20 Jul 13:51:21 CEST 2014)
+
+==> Continue installing dropbox ? [Y/n]
+==> [v]iew package contents [c]heck package with namcap
+==> ---------------------------------------------------
+==> 
+loading packages...
+resolving dependencies...
+looking for inter-conflicts...
+
+Packages (1): dropbox-2.10.2-1
+
+Total Installed Size:   38.49 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+installing dropbox...
+Optional dependencies for dropbox
+    ufw-extras: ufw rules for dropbox
+    perl-file-mimeinfo: opening dropbox folder on some desktop environments
+
+==> Downloading git-latexdiff-git PKGBUILD from AUR...
+x .AURINFO
+x PKGBUILD
+git-latexdiff-git r60.49bbd42-1  (Wed  2 Jul 14:10:21 CEST 2014)
+( Unsupported package: Potentially dangerous ! )
+==> git-latexdiff-git dependencies:
+ - texlive-core (already installed)
+ - git (already installed)
+
+
+==> Continue building git-latexdiff-git ? [Y/n]
+==> -------------------------------------------
+==> 
+==> Building and installing package
+==> Making package: git-latexdiff-git r60.49bbd42-1 (Sun 20 Jul 13:51:28 CEST 2014)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Cloning git-latexdiff-git git repo...
+Cloning into bare repository '/tmp/yaourt-tmp-binni/aur-git-latexdiff-git/git-latexdiff-git'...
+==> Validating source files with md5sums...
+    git-latexdiff-git ... Skipped
+==> Extracting sources...
+  -> Creating working copy of git-latexdiff git repo...
+Cloning into 'git-latexdiff-git'...
+done.
+==> Starting pkgver()...
+==> Starting build()...
+==> Entering fakeroot environment...
+==> Starting package()...
+==> Tidying install...
+  -> Purging unwanted files...
+  -> Removing libtool files...
+  -> Removing static library files...
+  -> Compressing man and info pages...
+  -> Stripping unneeded symbols from binaries and libraries...
+==> Creating package "git-latexdiff-git"...
+  -> Generating .PKGINFO file...
+  -> Generating .MTREE file...
+  -> Compressing package...
+==> Leaving fakeroot environment.
+==> Finished making: git-latexdiff-git r60.49bbd42-1 (Sun 20 Jul 13:51:33 CEST 2014)
+
+==> Continue installing git-latexdiff-git ? [Y/n]
+==> [v]iew package contents [c]heck package with namcap
+==> ---------------------------------------------------
+==> 
+loading packages...
+resolving dependencies...
+looking for inter-conflicts...
+
+Packages (1): git-latexdiff-git-r60.49bbd42-1
+
+Total Installed Size:   0.02 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+installing git-latexdiff-git...
+
+==> Downloading mendeleydesktop PKGBUILD from AUR...
+x .AURINFO
+x PKGBUILD
+x mendeleydesktop.install
+Comment by sirocco  (2014-01-25 08:33)
+Ensure the base-devel group package is installed (pacman -S --needed base-devel).
+
+Comment by axelmagn  (2014-01-25 23:33)
+That resolved the problem.  Thanks.  Now I feel silly.
+
+Comment by Yenal  (2014-04-16 07:03)
+hey, pkg builds w/o problems on x86_64 ..just a suggestion: replace /opt/../loadlocale.js with this one: http://support.mendeley.com/customer/portal/questions/4168433-language-setting-for-citation
+to ease changing of citation language
+
+Comment by xgdgsc  (2014-04-16 07:33)
+I don' t use other locales. You have to modify mendeley.js , anyway. So I feel it may not be a good idea to change that file here. You can upload another package for that purpose.
+
+Comment by dtzWill  (2014-06-24 22:20)
+Can you re-upload this? It appears this needs to be done due to the AUR 3.0.0 release in order to provide required metadata.
+
+More information available on mailing list announcing AUR 3.0.0[1] and as described from the pacaur wiki[2].  I'll note the 'dependencies' list currently contains '[@]}' which is a bit amusing but something that should also be fixed by re-uploading in the new format.
+
+Thanks!
+
+[1] http://www.opendevs.org/nnnyp/aur-3-released.html
+[2] https://wiki.archlinux.org/index.php/Pacaur
+
+mendeleydesktop 1.11-1  (Wed 10 Jun 20:28:37 CEST 2009)
+( Unsupported package: Potentially dangerous ! )
+==> mendeleydesktop dependencies:
+ - python2 (already installed)
+ - qtwebkit (already installed)
+ - gconf (already installed)
+
+
+==> Continue building mendeleydesktop ? [Y/n]
+==> -----------------------------------------
+==> 
+==> Building and installing package
+==> Making package: mendeleydesktop 1.11-1 (Sun 20 Jul 13:51:35 CEST 2014)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Downloading mendeleydesktop-1.11-linux-x86_64.tar.bz2...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  5 29.7M    5 1795k    0     0  2039k      0  0:00:14 --:--:--  0:00:14 2037k 29 29.7M   29 9049k    0     0  4856k      0  0:00:06  0:00:01  0:00:05 4854k 46 29.7M   46 13.8M    0     0  4968k      0  0:00:06  0:00:02  0:00:04 4967k 57 29.7M   57 17.2M    0     0  4561k      0  0:00:06  0:00:03  0:00:03 4560k 67 29.7M   67 19.9M    0     0  4191k      0  0:00:07  0:00:04  0:00:03 4191k 77 29.7M   77 23.0M    0     0  4019k      0  0:00:07  0:00:05  0:00:02 4369k 87 29.7M   87 26.0M    0     0  3868k      0  0:00:07  0:00:06  0:00:01 3502k 96 29.7M   96 28.7M    0     0  3737k      0  0:00:08  0:00:07  0:00:01 3034k100 29.7M  100 29.7M    0     0  3702k      0  0:00:08  0:00:08 --:--:-- 2941k
+  -> Found mendeleydesktop.install
+==> Validating source files with md5sums...
+    mendeleydesktop-1.11-linux-x86_64.tar.bz2 ... Passed
+    mendeleydesktop.install ... Passed
+==> Extracting sources...
+  -> Extracting mendeleydesktop-1.11-linux-x86_64.tar.bz2 with bsdtar
+==> Entering fakeroot environment...
+==> Starting package()...
+Removing bundled Qt library.
+If you used "--force-bundled-qt" to start mendeley,
+make sure you remove any old versions of ".desktop" file of mendeley in ~/.local/share/applications/,
+because mendeley will automatically create one there.
+==> Tidying install...
+  -> Purging unwanted files...
+  -> Removing libtool files...
+  -> Removing static library files...
+  -> Compressing man and info pages...
+  -> Stripping unneeded symbols from binaries and libraries...
+==> Creating package "mendeleydesktop"...
+  -> Generating .PKGINFO file...
+  -> Adding install file...
+  -> Generating .MTREE file...
+  -> Compressing package...
+==> Leaving fakeroot environment.
+==> Finished making: mendeleydesktop 1.11-1 (Sun 20 Jul 13:52:15 CEST 2014)
+
+==> Continue installing mendeleydesktop ? [Y/n]
+==> [v]iew package contents [c]heck package with namcap
+==> ---------------------------------------------------
+==> 
+loading packages...
+resolving dependencies...
+looking for inter-conflicts...
+
+Packages (1): mendeleydesktop-1.11-1
+
+Total Installed Size:   45.27 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+installing mendeleydesktop...
+
+==> Downloading sublime-text-dev PKGBUILD from AUR...
+x PKGBUILD
+x sublime_text_3.desktop
+x sublime-text-dev.install
+Comment by sender  (2014-06-20 19:52)
+@01walid Are you sure? The most recent build on http://www.sublimetext.com/3 is than 3059. Build 3062 is for registered users only (and packaged in https://aur.archlinux.org/packages/sublime-text-nightly).
+
+Comment by Se7enTime  (2014-07-10 16:52)
+Error trying to parse settings: Unexpected character, expected a comma or closing bracket in Packages/User/Preferences.sublime-settings:4:2
+
+error when add
+
+"update_check": false
+
+Comment by sender  (2014-07-11 16:48)
+@Se7enTime: you probably need to end the previous line with a comma.
+
+Comment by Kuci  (2014-07-14 19:01)
+The latest publicly available dev build is 3062: http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_3062_x64.tar.bz2
+
+Comment by sender  (2014-07-14 19:05)
+@Kuci please see https://aur.archlinux.org/packages/sublime-text-nightly. And you DO need a license to run this build.
+
+sublime-text-dev 3.3059-1  (Thu 10 Nov 19:32:39 CET 2011)
+( Unsupported package: Potentially dangerous ! )
+==> sublime-text-dev dependencies:
+ - libpng (already installed)
+ - gtk2 (already installed)
+
+
+==> Continue building sublime-text-dev ? [Y/n]
+==> ------------------------------------------
+==> 
+==> Building and installing package
+==> Making package: sublime-text-dev 3.3059-1 (Sun 20 Jul 13:52:21 CEST 2014)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Downloading sublime_text_3_build_3059_x64.tar.bz2...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 7300k    0 70542    0     0   220k      0  0:00:33 --:--:--  0:00:33  220k 51 7300k   51 3749k    0     0  2910k      0  0:00:02  0:00:01  0:00:01 2909k 95 7300k   95 7002k    0     0  3058k      0  0:00:02  0:00:02 --:--:-- 3057k100 7300k  100 7300k    0     0  3131k      0  0:00:02  0:00:02 --:--:-- 3130k
+  -> Found sublime_text_3.desktop
+==> Validating source files with md5sums...
+    sublime_text_3_build_3059_x64.tar.bz2 ... Passed
+    sublime_text_3.desktop ... Passed
+==> Extracting sources...
+  -> Extracting sublime_text_3_build_3059_x64.tar.bz2 with bsdtar
+==> Entering fakeroot environment...
+==> Starting package()...
+==> Tidying install...
+  -> Purging unwanted files...
+  -> Removing libtool files...
+  -> Removing static library files...
+  -> Compressing man and info pages...
+  -> Stripping unneeded symbols from binaries and libraries...
+==> Creating package "sublime-text-dev"...
+  -> Generating .PKGINFO file...
+  -> Adding install file...
+  -> Generating .MTREE file...
+  -> Compressing package...
+==> Leaving fakeroot environment.
+==> Finished making: sublime-text-dev 3.3059-1 (Sun 20 Jul 13:52:32 CEST 2014)
+
+==> Continue installing sublime-text-dev ? [Y/n]
+==> [v]iew package contents [c]heck package with namcap
+==> ---------------------------------------------------
+==> 
+loading packages...
+resolving dependencies...
+looking for inter-conflicts...
+
+Packages (1): sublime-text-dev-3.3059-1
+
+Total Installed Size:   16.02 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+installing sublime-text-dev...
+
+  ==> sublime-text-dev install/upgrade note:
+  ------------------------------------------------------------------------------
+    To disable in-application reminders about new Sublime Text dev versions,
+    add the following setting to your User Preferences file:
+    "update_check": false
+
+==> Packages no longer required by any installed package:
+    cpio
