@@ -86,7 +86,7 @@ alias cinnamon-restart='cinnamon --replace -d :0.0 > /dev/null 2>&1 &'
 alias python_server="python -m SimpleHTTPServer 8888 &"
 
 ### Path to the miniconda installation
-CONDA_PATH="/home/binni/miniconda3/bin"
+CONDA_PATH="/home/binni/miniconda/bin"
 
 ### Aliases to add or remove conda from path
 alias conda_add_path='pathadd_front $CONDA_PATH; eval "$(register-python-argcomplete conda)";echo prepending $CONDA_PATH to PATH'

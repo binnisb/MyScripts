@@ -1,4 +1,4 @@
-PREFIX="/home/binni/miniconda3"
+PREFIX="/home/binni/miniconda"
 CONDARC="/home/binni/.condarc"
 
 rule all:
@@ -10,8 +10,8 @@ rule copy_condarc:
 
 rule get_latest:
     input: CONDARC
-    output: "Miniconda.txt"
-    shell: "pip install beautifulsoup4;./GetLatestMiniconda.py > {output}"
+    output: temp("Miniconda.txt")
+    shell: "pip3 install --user beautifulsoup4;python3 GetLatestMiniconda.py > {output}"
 
 rule download_latest:
     input: rules.get_latest.output

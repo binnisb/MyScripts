@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # coding: utf-8
 import sys
 from urllib import request
@@ -10,7 +10,7 @@ URL="http://repo.continuum.io/miniconda/"
 soup = BeautifulSoup(request.urlopen(URL).read())
 date_url = {}
 table = soup.find("table")
-links = table.find_all("a",href=re.compile("Miniconda3.*inux-x86_64"))
+links = table.find_all("a",href=re.compile("Miniconda.*inux-x86_64"))
 for link in links:
     l = URL+link.get("href").strip("./")
     date = datetime.strptime(link.parent.next_sibling.next_sibling.next_sibling.next_sibling.next_element, "%Y-%m-%d %H:%M:%S")
