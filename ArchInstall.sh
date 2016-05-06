@@ -2,7 +2,7 @@ sudo pacman -Syy --needed yaourt
 yaourt -Syy --needed texlive-science texlive-latexextra sublime-text-dev mendeleydesktop google-chrome fish texstudio \
                      libu2f-host intellij-idea-community-edition jdk8-openjdk jdk kodi pkgfile sbt scala \
                      octave htop mariadb-clients nfs-utils openvpn redshift spotify scudcloud weechat slack-desktop dropbox \
-                     autofs zsh tmux tmuxinator
+                     autofs zsh tmux tmuxinator clementine
 
 
 sudo archlinux-java set java-8-jdk
